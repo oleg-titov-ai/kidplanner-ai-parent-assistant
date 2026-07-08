@@ -11,3 +11,4 @@
 - Clarify parent journey.
 - Add request-count tests.
 - Keep privacy notes clear.
+- Keep payment-related notes easy to review.
