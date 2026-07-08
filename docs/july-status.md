@@ -13,3 +13,4 @@
 - Keep privacy notes clear.
 - Keep payment-related notes easy to review.
 - Next pass: verify the parent journey from first message to payment.
+- Evening pass: keep limit and payment notes understandable without private data.
