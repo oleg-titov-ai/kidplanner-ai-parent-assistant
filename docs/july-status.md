@@ -15,3 +15,4 @@
 - Next pass: verify the parent journey from first message to payment.
 - Evening pass: keep limit and payment notes understandable without private data.
 - Morning pass: make the demo journey readable without exposing real users.
+- Midday pass: keep demo notes short.
