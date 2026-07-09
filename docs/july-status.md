@@ -16,3 +16,4 @@
 - Evening pass: keep limit and payment notes understandable without private data.
 - Morning pass: make the demo journey readable without exposing real users.
 - Midday pass: keep demo notes short.
+- Evening pass: keep onboarding notes simple for a reviewer walkthrough.
