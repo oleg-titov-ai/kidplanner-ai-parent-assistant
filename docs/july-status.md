@@ -17,3 +17,4 @@
 - Morning pass: make the demo journey readable without exposing real users.
 - Midday pass: keep demo notes short.
 - Evening pass: keep onboarding notes simple for a reviewer walkthrough.
+- Review note: keep test cases based on synthetic family data.
