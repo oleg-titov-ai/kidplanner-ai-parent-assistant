@@ -43,6 +43,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Create demo payment product.
 - [ ] Configure payment webhook URL.
 - [ ] Store provider secret locally or in n8n credentials.
+- [ ] Verify payment webhook signatures before processing events.
 - [ ] Test successful payment event.
 - [ ] Test failed payment event.
 
