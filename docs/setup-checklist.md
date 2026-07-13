@@ -33,6 +33,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Test AI response flow.
 - [ ] Test limit handling.
 - [ ] Test payment success handling.
+- [ ] Test duplicate payment event handling.
 - [ ] Test daily tip delivery.
 
 ---
