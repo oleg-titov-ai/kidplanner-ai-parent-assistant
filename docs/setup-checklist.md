@@ -32,6 +32,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Create payment webhook branch.
 - [ ] Create daily tips scheduled branch.
 - [ ] Test AI response flow.
+- [ ] Review system prompts for medical, legal, and emergency escalation wording.
 - [ ] Test limit handling.
 - [ ] Test payment success handling.
 - [ ] Test duplicate payment event handling.
