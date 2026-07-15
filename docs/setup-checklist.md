@@ -20,6 +20,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Run `sql/002_demo_data.sql`.
 - [ ] Check demo user and tariff data.
 - [ ] Define and document a retention period for stored conversation history.
+- [ ] Verify stored conversation history can be deleted for a test user without affecting other records.
 - [ ] Verify demo data can be reset without affecting production records.
 
 ---
