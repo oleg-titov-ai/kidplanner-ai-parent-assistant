@@ -109,3 +109,5 @@ Small moments of full attention often work better than long lectures.
 На твой аккаунт добавлено 50 дополнительных запросов.
 Можно продолжать пользоваться KidPlanner.
 ```
+
+Before publishing screenshots, review all example text for accidental real names or identifiers.
