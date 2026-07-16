@@ -57,6 +57,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Confirm the paid amount and currency match the expected product before increasing limits.
 - [ ] Test successful payment event.
 - [ ] Test failed payment event.
+- [ ] Verify retrying a failed payment event cannot grant requests twice.
 
 ---
 
