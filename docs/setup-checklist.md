@@ -37,6 +37,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Verify a clear fallback message is sent when the AI request times out.
 - [ ] Verify provider rate limits return a safe user-facing fallback.
 - [ ] Review system prompts for medical, legal, and emergency escalation wording.
+- [ ] Confirm workflow error logs redact user messages and payment identifiers.
 - [ ] Test limit handling.
 - [ ] Test payment success handling.
 - [ ] Test duplicate payment event handling.
