@@ -22,6 +22,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Define and document a retention period for stored conversation history.
 - [ ] Verify stored conversation history can be deleted for a test user without affecting other records.
 - [ ] Verify demo data can be reset without affecting production records.
+- [ ] Confirm a second demo reset produces the same clean baseline state.
 
 ---
 
