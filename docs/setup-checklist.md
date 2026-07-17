@@ -43,6 +43,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Test duplicate payment event handling.
 - [ ] Confirm payment status and request balance stay consistent after retries.
 - [ ] Confirm payment-limit changes leave a non-sensitive audit record for troubleshooting.
+- [ ] Verify payment status and request-limit updates commit atomically in one database transaction.
 - [ ] Test daily tip delivery.
 
 ---
