@@ -61,6 +61,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Reject replayed webhook events that reuse an already processed event ID.
 - [ ] Confirm webhook event timestamps are within an accepted age window before processing.
 - [ ] Confirm the paid amount and currency match the expected product before increasing limits.
+- [ ] Confirm currency amounts are compared using integer minor units rather than floating-point values.
 - [ ] Confirm each provider product ID maps to exactly one internal tariff or request package.
 - [ ] Test successful payment event.
 - [ ] Test failed payment event.
