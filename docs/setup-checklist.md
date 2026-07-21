@@ -64,6 +64,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Confirm the paid amount and currency match the expected product before increasing limits.
 - [ ] Confirm currency amounts are compared using integer minor units rather than floating-point values.
 - [ ] Confirm each provider product ID maps to exactly one internal tariff or request package.
+- [ ] Store only the payment metadata required for reconciliation and support.
 - [ ] Test successful payment event.
 - [ ] Test failed payment event.
 - [ ] Verify retrying a failed payment event cannot grant requests twice.
