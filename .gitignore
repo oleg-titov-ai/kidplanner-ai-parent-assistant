@@ -12,6 +12,7 @@ yarn-error.log*
 # Dependencies
 node_modules/
 coverage/
+.npm/
 
 # OS / editor
 .DS_Store
