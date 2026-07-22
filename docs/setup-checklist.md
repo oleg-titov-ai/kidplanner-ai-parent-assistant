@@ -68,6 +68,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Store only the payment metadata required for reconciliation and support.
 - [ ] Define a retention period for non-sensitive payment audit metadata.
 - [ ] Verify payment creation uses a stable idempotency key so retries cannot create duplicate charges.
+- [ ] Reconcile a completed demo payment against the provider record before closing the test.
 - [ ] Test successful payment event.
 - [ ] Test failed payment event.
 - [ ] Verify retrying a failed payment event cannot grant requests twice.
