@@ -57,6 +57,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Configure payment webhook URL.
 - [ ] Store provider secret locally or in n8n credentials.
 - [ ] Verify payment webhook signatures before processing events.
+- [ ] Confirm an invalid webhook signature returns an error without changing payment or request-limit state.
 - [ ] Confirm webhook events originate from the configured provider endpoint or verified source range.
 - [ ] Reject unsupported webhook event types before changing user limits.
 - [ ] Reject replayed webhook events that reuse an already processed event ID.
