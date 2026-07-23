@@ -71,6 +71,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Reconcile a completed demo payment against the provider record before closing the test.
 - [ ] Verify user-facing payment messages display the same currency configured for the product.
 - [ ] Confirm the payment receipt summary matches the provider-approved amount and currency.
+- [ ] Validate the webhook payload against the documented schema version before processing.
 - [ ] Test successful payment event.
 - [ ] Test failed payment event.
 - [ ] Verify retrying a failed payment event cannot grant requests twice.
