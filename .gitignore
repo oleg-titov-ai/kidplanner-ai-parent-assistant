@@ -13,6 +13,7 @@ yarn-error.log*
 node_modules/
 coverage/
 .npm/
+.pnpm-store/
 
 # OS / editor
 .DS_Store
