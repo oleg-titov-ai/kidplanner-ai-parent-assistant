@@ -74,6 +74,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Confirm the payment receipt summary matches the provider-approved amount and currency.
 - [ ] Validate the webhook payload against the documented schema version before processing.
 - [ ] After a provider API timeout, query payment status before retrying creation or granting requests.
+- [ ] Confirm every stored provider payment reference is unique before granting request credits.
 - [ ] Test successful payment event.
 - [ ] Test failed payment event.
 - [ ] Verify retrying a failed payment event cannot grant requests twice.
