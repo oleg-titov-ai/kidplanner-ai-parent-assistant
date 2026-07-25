@@ -188,3 +188,5 @@ AI Telegram assistant for parents with PostgreSQL memory, n8n automation, reques
 
 **Russian:**  
 AI Telegram-помощник для родителей с памятью в PostgreSQL, автоматизацией n8n, лимитами запросов и оплатой.
+
+Maintenance note: verify a successful payment grants the entitlement exactly once and to the matching user account.
