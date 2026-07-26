@@ -15,6 +15,7 @@ coverage/
 .npm/
 .pnpm-store/
 .vite/
+.next/
 
 # OS / editor
 .DS_Store
