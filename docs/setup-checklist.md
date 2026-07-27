@@ -78,6 +78,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Confirm the payment customer reference belongs to the user receiving request credits.
 - [ ] Reconcile granted request credits with the approved payment package after webhook processing.
 - [ ] Confirm every supported currency uses the correct number of minor-unit decimal places.
+- [ ] Confirm expired or cancelled payment sessions cannot grant request credits.
 - [ ] Test successful payment event.
 - [ ] Test failed payment event.
 - [ ] Verify retrying a failed payment event cannot grant requests twice.
