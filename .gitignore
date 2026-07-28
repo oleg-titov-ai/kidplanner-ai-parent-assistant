@@ -19,6 +19,7 @@ coverage/
 .next/
 .turbo/
 .parcel-cache/
+.cache/
 
 # OS / editor
 .DS_Store
