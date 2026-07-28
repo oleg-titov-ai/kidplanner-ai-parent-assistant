@@ -12,6 +12,7 @@ yarn-error.log*
 # Dependencies
 node_modules/
 coverage/
+.nyc_output/
 .npm/
 .pnpm-store/
 .vite/
