@@ -53,3 +53,4 @@ n8n/*private*.json
 playwright-report/
 test-results/
 .eslintcache
+junit.xml
