@@ -13,3 +13,5 @@ Test request-limit resets at the configured billing boundary to prevent early or
 Restore a recent synthetic backup in a disposable environment periodically to confirm migrations and recovery instructions still work.
 
 Run one synthetic account-deletion test and confirm related conversation data is removed or anonymized according to the documented retention policy.
+
+Run a fixed set of synthetic prompts after model or prompt updates to catch unexpected changes in tone, formatting, and actionability.
