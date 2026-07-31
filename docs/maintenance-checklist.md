@@ -19,3 +19,5 @@ Run a fixed set of synthetic prompts after model or prompt updates to catch unex
 Inspect one test export to confirm child names, birthdays, and message text are omitted or replaced with synthetic values.
 
 Review committed test fixtures periodically to confirm every profile and conversation remains fully synthetic.
+
+Verify a failed payment callback cannot increment balances or extend a synthetic test subscription.
