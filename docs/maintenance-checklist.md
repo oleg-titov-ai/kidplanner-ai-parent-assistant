@@ -17,3 +17,5 @@ Run one synthetic account-deletion test and confirm related conversation data is
 Run a fixed set of synthetic prompts after model or prompt updates to catch unexpected changes in tone, formatting, and actionability.
 
 Inspect one test export to confirm child names, birthdays, and message text are omitted or replaced with synthetic values.
+
+Review committed test fixtures periodically to confirm every profile and conversation remains fully synthetic.
