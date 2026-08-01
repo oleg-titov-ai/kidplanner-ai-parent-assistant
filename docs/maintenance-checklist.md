@@ -21,3 +21,5 @@ Inspect one test export to confirm child names, birthdays, and message text are 
 Review committed test fixtures periodically to confirm every profile and conversation remains fully synthetic.
 
 Verify a failed payment callback cannot increment balances or extend a synthetic test subscription.
+
+Confirm support logs use synthetic user identifiers and never include full prompt or conversation content by default.
