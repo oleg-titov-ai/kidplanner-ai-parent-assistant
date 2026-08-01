@@ -80,6 +80,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Confirm every supported currency uses the correct number of minor-unit decimal places.
 - [ ] Confirm expired or cancelled payment sessions cannot grant request credits.
 - [ ] Confirm the user’s final request balance equals the prior balance plus the granted package after a successful payment.
+- [ ] Confirm the payment audit record shows the previous balance, granted package, and resulting balance without storing private conversation data.
 - [ ] Test successful payment event.
 - [ ] Test failed payment event.
 - [ ] Verify retrying a failed payment event cannot grant requests twice.
