@@ -194,3 +194,5 @@ Maintenance note: verify a successful payment grants the entitlement exactly onc
 Maintenance note: verify failed or refunded payments never increase the user's request allowance.
 
 Maintenance note: confirm demo conversations contain no real child names or family details before publishing screenshots.
+
+Maintenance note: verify replayed payment webhooks remain idempotent after a workflow restart.
