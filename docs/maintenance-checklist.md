@@ -23,3 +23,5 @@ Review committed test fixtures periodically to confirm every profile and convers
 Verify a failed payment callback cannot increment balances or extend a synthetic test subscription.
 
 Confirm support logs use synthetic user identifiers and never include full prompt or conversation content by default.
+
+Confirm daily advice generation skips disabled accounts without consuming their request balance.
