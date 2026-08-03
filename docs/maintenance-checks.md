@@ -9,3 +9,4 @@ Before a demo or release:
 - Confirm expired access is enforced consistently across text and voice requests.
 - Reset demo accounts to synthetic data and documented limits before recording screenshots.
 - Test that an account deletion request removes or anonymizes linked conversation and billing references as documented.
+- Verify parental guidance examples are clearly presented as informational, not professional advice.
