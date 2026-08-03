@@ -8,3 +8,4 @@ Before a demo or release:
 - Ensure support logs contain statuses and references, not full message text.
 - Confirm expired access is enforced consistently across text and voice requests.
 - Reset demo accounts to synthetic data and documented limits before recording screenshots.
+- Test that an account deletion request removes or anonymizes linked conversation and billing references as documented.
