@@ -7,3 +7,4 @@ Before a demo or release:
 - Review demo conversations and screenshots for personal family details.
 - Ensure support logs contain statuses and references, not full message text.
 - Confirm expired access is enforced consistently across text and voice requests.
+- Reset demo accounts to synthetic data and documented limits before recording screenshots.
