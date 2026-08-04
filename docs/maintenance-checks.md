@@ -11,3 +11,4 @@ Before a demo or release:
 - Test that an account deletion request removes or anonymizes linked conversation and billing references as documented.
 - Verify parental guidance examples are clearly presented as informational, not professional advice.
 - Confirm restored accounts recalculate remaining request limits from authoritative billing records.
+- Confirm demo billing records use synthetic references and cannot trigger real payment actions.
