@@ -12,3 +12,4 @@ Before a demo or release:
 - Verify parental guidance examples are clearly presented as informational, not professional advice.
 - Confirm restored accounts recalculate remaining request limits from authoritative billing records.
 - Confirm demo billing records use synthetic references and cannot trigger real payment actions.
+- Review consent and privacy copy after any change to stored conversation fields.
