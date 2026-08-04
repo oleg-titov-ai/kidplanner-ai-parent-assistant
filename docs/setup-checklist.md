@@ -83,6 +83,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Confirm the payment audit record shows the previous balance, granted package, and resulting balance without storing private conversation data.
 - [ ] Confirm expired payment audit records can be removed without changing user balances or entitlements.
 - [ ] Confirm the active entitlement total can be reconciled from immutable payment audit records after a restore test.
+- [ ] Confirm entitlement reconciliation reports exclude user message content and provider secrets.
 - [ ] Test successful payment event.
 - [ ] Test failed payment event.
 - [ ] Verify retrying a failed payment event cannot grant requests twice.
