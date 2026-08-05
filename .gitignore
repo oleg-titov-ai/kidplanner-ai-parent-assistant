@@ -54,3 +54,6 @@ playwright-report/
 test-results/
 .eslintcache
 junit.xml
+
+# Local webhook fixtures
+payment-webhook-fixtures/
