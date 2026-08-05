@@ -14,3 +14,4 @@ Before a demo or release:
 - Confirm demo billing records use synthetic references and cannot trigger real payment actions.
 - Review consent and privacy copy after any change to stored conversation fields.
 - Verify exported support diagnostics omit conversation content by default.
+- Confirm account-recovery examples use synthetic addresses and cannot contact real users.
