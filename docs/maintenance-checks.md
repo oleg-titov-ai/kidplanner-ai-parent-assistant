@@ -13,3 +13,4 @@ Before a demo or release:
 - Confirm restored accounts recalculate remaining request limits from authoritative billing records.
 - Confirm demo billing records use synthetic references and cannot trigger real payment actions.
 - Review consent and privacy copy after any change to stored conversation fields.
+- Verify exported support diagnostics omit conversation content by default.
