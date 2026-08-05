@@ -57,3 +57,6 @@ junit.xml
 
 # Local webhook fixtures
 payment-webhook-fixtures/
+
+# Local consent review exports
+consent-review-exports/
