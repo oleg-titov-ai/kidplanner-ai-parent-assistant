@@ -61,3 +61,4 @@ payment-webhook-fixtures/
 # Local consent review exports
 consent-review-exports/
 privacy-review-reports/
+anonymization-checks/
