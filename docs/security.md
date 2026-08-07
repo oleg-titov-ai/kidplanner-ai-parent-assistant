@@ -71,6 +71,8 @@ openai
 
 Also manually inspect screenshots before uploading them.
 
+Review screenshots at full resolution and crop or redact notification previews, account names, IDs, and browser autofill suggestions.
+
 ---
 
 ## 🧯 If a Secret Was Committed
