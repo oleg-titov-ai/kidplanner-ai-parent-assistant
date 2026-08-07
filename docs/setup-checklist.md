@@ -24,6 +24,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Verify demo data can be reset without affecting production records.
 - [ ] Confirm a second demo reset produces the same clean baseline state.
 - [ ] Confirm demo fixtures use identifiers that cannot collide with production users or payments.
+- [ ] Confirm demo and production database connection strings cannot be confused by shared environment variable names.
 
 ---
 
