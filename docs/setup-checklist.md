@@ -112,3 +112,4 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Payment success.
 - [ ] n8n workflow overview.
 - [ ] PostgreSQL demo tables.
+- [ ] Recheck screenshots at full resolution for names, IDs, tokens, and notification previews before publishing.
