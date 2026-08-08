@@ -73,6 +73,8 @@ Also manually inspect screenshots before uploading them.
 
 Review screenshots at full resolution and crop or redact notification previews, account names, IDs, and browser autofill suggestions.
 
+Confirm payment examples use synthetic transaction IDs, amounts, and customer references rather than copied provider payloads.
+
 ---
 
 ## 🧯 If a Secret Was Committed
