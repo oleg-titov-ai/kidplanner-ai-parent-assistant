@@ -77,6 +77,8 @@ Confirm payment examples use synthetic transaction IDs, amounts, and customer re
 
 Confirm screenshot filenames and embedded metadata do not contain child names, account names, or local usernames before publication.
 
+Confirm demo database fixtures use synthetic family names, message text, and payment references only.
+
 ---
 
 ## 🧯 If a Secret Was Committed
