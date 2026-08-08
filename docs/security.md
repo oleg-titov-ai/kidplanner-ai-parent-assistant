@@ -75,6 +75,8 @@ Review screenshots at full resolution and crop or redact notification previews, 
 
 Confirm payment examples use synthetic transaction IDs, amounts, and customer references rather than copied provider payloads.
 
+Confirm screenshot filenames and embedded metadata do not contain child names, account names, or local usernames before publication.
+
 ---
 
 ## 🧯 If a Secret Was Committed
