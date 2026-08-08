@@ -196,3 +196,5 @@ Maintenance note: verify failed or refunded payments never increase the user's r
 Maintenance note: confirm demo conversations contain no real child names or family details before publishing screenshots.
 
 Maintenance note: verify replayed payment webhooks remain idempotent after a workflow restart.
+
+Maintenance note: confirm demo message history is periodically reset so portfolio data never drifts into real-user retention.
