@@ -198,3 +198,5 @@ Maintenance note: confirm demo conversations contain no real child names or fami
 Maintenance note: verify replayed payment webhooks remain idempotent after a workflow restart.
 
 Maintenance note: confirm demo message history is periodically reset so portfolio data never drifts into real-user retention.
+
+Maintenance note: confirm example AI responses avoid presenting medical or diagnostic guidance as professional advice.
