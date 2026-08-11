@@ -204,3 +204,5 @@ Maintenance note: confirm example AI responses avoid presenting medical or diagn
 Maintenance note: verify demo database cleanup removes expired synthetic conversations without affecting schema examples.
 
 Maintenance note: keep demo payment events clearly separated from production webhook examples and transaction records.
+
+Maintenance note: review demo retention examples after schema changes so cleanup rules still match the documented data model.
