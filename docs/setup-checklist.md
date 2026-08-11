@@ -100,6 +100,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Search repository for real child names.
 - [ ] Search repository for real payment IDs.
 - [ ] Search repository for private webhook URLs.
+- [ ] Confirm demo screenshots contain no notification banners with personal data.
 
 ---
 
