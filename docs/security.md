@@ -79,6 +79,8 @@ Confirm screenshot filenames and embedded metadata do not contain child names, a
 
 Confirm demo database fixtures use synthetic family names, message text, and payment references only.
 
+Confirm public prompt examples contain synthetic family context only and cannot be traced to real conversations.
+
 ---
 
 ## 🧯 If a Secret Was Committed
