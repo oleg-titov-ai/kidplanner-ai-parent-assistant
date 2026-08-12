@@ -49,6 +49,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Confirm payment-limit changes leave a non-sensitive audit record for troubleshooting.
 - [ ] Verify payment status and request-limit updates commit atomically in one database transaction.
 - [ ] Test daily tip delivery.
+- [ ] Confirm a failed daily-tip send does not mark the user as successfully delivered.
 
 ---
 
