@@ -206,3 +206,5 @@ Maintenance note: verify demo database cleanup removes expired synthetic convers
 Maintenance note: keep demo payment events clearly separated from production webhook examples and transaction records.
 
 Maintenance note: review demo retention examples after schema changes so cleanup rules still match the documented data model.
+
+Maintenance note: reset demo user limits and synthetic message history before recording new portfolio screenshots.
