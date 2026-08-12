@@ -208,3 +208,5 @@ Maintenance note: keep demo payment events clearly separated from production web
 Maintenance note: review demo retention examples after schema changes so cleanup rules still match the documented data model.
 
 Maintenance note: reset demo user limits and synthetic message history before recording new portfolio screenshots.
+
+Maintenance note: verify the daily-tip workflow excludes inactive demo users before sending scheduled portfolio examples.
