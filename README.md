@@ -212,3 +212,5 @@ Maintenance note: reset demo user limits and synthetic message history before re
 Maintenance note: verify the daily-tip workflow excludes inactive demo users before sending scheduled portfolio examples.
 
 Maintenance note: confirm portfolio notification screenshots contain only synthetic chat names, IDs, and message content.
+
+Maintenance note: verify empty or failed AI responses fall back to a safe user-facing message without consuming an extra paid request.
