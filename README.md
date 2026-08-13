@@ -214,3 +214,5 @@ Maintenance note: verify the daily-tip workflow excludes inactive demo users bef
 Maintenance note: confirm portfolio notification screenshots contain only synthetic chat names, IDs, and message content.
 
 Maintenance note: verify empty or failed AI responses fall back to a safe user-facing message without consuming an extra paid request.
+
+Maintenance note: confirm demo payment examples use an explicit synthetic currency and amount so they cannot be mistaken for real transactions.
