@@ -81,6 +81,8 @@ Confirm demo database fixtures use synthetic family names, message text, and pay
 
 Confirm public prompt examples contain synthetic family context only and cannot be traced to real conversations.
 
+Review any exported demo reports separately from source files because generated output may reintroduce identifiers not present in fixtures.
+
 ---
 
 ## 🧯 If a Secret Was Committed
