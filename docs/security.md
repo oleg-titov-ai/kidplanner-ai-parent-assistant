@@ -83,6 +83,8 @@ Confirm public prompt examples contain synthetic family context only and cannot 
 
 Review any exported demo reports separately from source files because generated output may reintroduce identifiers not present in fixtures.
 
+Confirm example AI prompts and responses avoid embedding real timestamps, locations, or family-specific context copied from production conversations.
+
 ---
 
 ## 🧯 If a Secret Was Committed
