@@ -117,3 +117,4 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] n8n workflow overview.
 - [ ] PostgreSQL demo tables.
 - [ ] Recheck screenshots at full resolution for names, IDs, tokens, and notification previews before publishing.
+- [ ] Use synthetic timestamps in demo screenshots when real activity times are not relevant to the portfolio example.
