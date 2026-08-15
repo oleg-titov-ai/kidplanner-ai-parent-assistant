@@ -50,6 +50,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Verify payment status and request-limit updates commit atomically in one database transaction.
 - [ ] Test daily tip delivery.
 - [ ] Confirm a failed daily-tip send does not mark the user as successfully delivered.
+- [ ] Confirm demo AI failures can be diagnosed from metadata-only logs without storing the parent prompt or generated answer.
 
 ---
 
