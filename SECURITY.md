@@ -30,3 +30,5 @@ Open a GitHub issue with a safe description only. Do not include tokens, API key
 ## Privacy Notes
 
 A production version should collect the minimum required user data, clearly explain data handling, and provide a way for users to stop messages or remove stored data.
+
+Before publishing AI examples, confirm prompts and responses contain only synthetic family details and no real payment references.
