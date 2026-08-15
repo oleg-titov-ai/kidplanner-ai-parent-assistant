@@ -216,3 +216,5 @@ Maintenance note: confirm portfolio notification screenshots contain only synthe
 Maintenance note: verify empty or failed AI responses fall back to a safe user-facing message without consuming an extra paid request.
 
 Maintenance note: confirm demo payment examples use an explicit synthetic currency and amount so they cannot be mistaken for real transactions.
+
+Maintenance note: replay the same synthetic payment event after a demo reset and confirm entitlement state remains idempotent.
