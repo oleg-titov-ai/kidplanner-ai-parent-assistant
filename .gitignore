@@ -57,6 +57,7 @@ junit.xml
 
 # Local webhook fixtures
 payment-webhook-fixtures/
+payment-reconciliation-reports/
 
 # Local consent review exports
 consent-review-exports/
