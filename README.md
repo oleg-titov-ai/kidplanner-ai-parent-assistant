@@ -218,3 +218,5 @@ Maintenance note: verify empty or failed AI responses fall back to a safe user-f
 Maintenance note: confirm demo payment examples use an explicit synthetic currency and amount so they cannot be mistaken for real transactions.
 
 Maintenance note: replay the same synthetic payment event after a demo reset and confirm entitlement state remains idempotent.
+
+Maintenance note: verify demo cleanup preserves request-limit and payment-state consistency before recording portfolio screenshots.
