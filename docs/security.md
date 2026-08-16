@@ -85,6 +85,8 @@ Review any exported demo reports separately from source files because generated 
 
 Confirm example AI prompts and responses avoid embedding real timestamps, locations, or family-specific context copied from production conversations.
 
+Confirm exported demo conversation bundles contain only synthetic IDs and no provider-specific payment references before publication.
+
 ---
 
 ## 🧯 If a Secret Was Committed
