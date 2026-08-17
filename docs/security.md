@@ -87,6 +87,8 @@ Confirm example AI prompts and responses avoid embedding real timestamps, locati
 
 Confirm exported demo conversation bundles contain only synthetic IDs and no provider-specific payment references before publication.
 
+Confirm any portfolio export can be regenerated from documented synthetic fixtures without copying production records.
+
 ---
 
 ## 🧯 If a Secret Was Committed
