@@ -220,3 +220,5 @@ Maintenance note: confirm demo payment examples use an explicit synthetic curren
 Maintenance note: replay the same synthetic payment event after a demo reset and confirm entitlement state remains idempotent.
 
 Maintenance note: verify demo cleanup preserves request-limit and payment-state consistency before recording portfolio screenshots.
+
+Maintenance note: confirm demo prompts and screenshots avoid implying consent to store real family data beyond the documented synthetic test scope.
