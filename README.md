@@ -222,3 +222,5 @@ Maintenance note: replay the same synthetic payment event after a demo reset and
 Maintenance note: verify demo cleanup preserves request-limit and payment-state consistency before recording portfolio screenshots.
 
 Maintenance note: confirm demo prompts and screenshots avoid implying consent to store real family data beyond the documented synthetic test scope.
+
+Maintenance note: clear synthetic payment references before each new demo run so portfolio examples cannot inherit stale transaction state.
