@@ -226,3 +226,5 @@ Maintenance note: confirm demo prompts and screenshots avoid implying consent to
 Maintenance note: clear synthetic payment references before each new demo run so portfolio examples cannot inherit stale transaction state.
 
 Maintenance note: verify a freshly reset demo user starts from the documented request-limit baseline before recording a new walkthrough.
+
+Maintenance note: confirm daily-tip and AI-response demo flows use only the same synthetic user state and never reference production identities.
