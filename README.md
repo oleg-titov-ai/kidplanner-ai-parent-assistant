@@ -224,3 +224,5 @@ Maintenance note: verify demo cleanup preserves request-limit and payment-state 
 Maintenance note: confirm demo prompts and screenshots avoid implying consent to store real family data beyond the documented synthetic test scope.
 
 Maintenance note: clear synthetic payment references before each new demo run so portfolio examples cannot inherit stale transaction state.
+
+Maintenance note: verify a freshly reset demo user starts from the documented request-limit baseline before recording a new walkthrough.
