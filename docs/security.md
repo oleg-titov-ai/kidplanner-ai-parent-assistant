@@ -89,6 +89,8 @@ Confirm exported demo conversation bundles contain only synthetic IDs and no pro
 
 Confirm any portfolio export can be regenerated from documented synthetic fixtures without copying production records.
 
+Keep temporary demo exports only as long as needed for review, then remove them from local working directories.
+
 ---
 
 ## 🧯 If a Secret Was Committed
