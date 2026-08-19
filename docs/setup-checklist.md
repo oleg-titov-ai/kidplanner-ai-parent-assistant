@@ -95,6 +95,7 @@ Use this checklist to deploy a demo or production version of KidPlanner.
 - [ ] Confirm resetting the demo user also clears synthetic entitlement state so a new payment walkthrough starts from a known baseline.
 - [ ] Confirm the first synthetic payment after a demo reset grants exactly the documented package and no residual credits remain.
 - [ ] Confirm the post-reset payment audit contains only the new synthetic transaction and no stale references from the previous walkthrough.
+- [ ] Confirm a completed demo walkthrough ends with the documented entitlement balance before resetting the synthetic user.
 
 ---
 
