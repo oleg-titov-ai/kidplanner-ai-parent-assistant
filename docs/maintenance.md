@@ -5,3 +5,4 @@
 - 2026-08-20: Keep portfolio examples free of real child names, birth dates, locations, or family chat history; use synthetic fixtures for all screenshots and sample responses.
 - 2026-08-20: Verify the documented request-limit behavior matches the current free/paid demo flow after entitlement or tariff changes.
 - 2026-08-20: After schema migrations, reset and seed the demo user once to confirm the documented synthetic baseline can still be recreated without manual database fixes.
+- 2026-08-21: Verify a failed synthetic AI request does not decrement the documented demo quota or leave a partially written conversation entry.
