@@ -12,3 +12,4 @@
 - 2026-08-22: Keep the documented demo user seed deterministic so quota, entitlement, and conversation-state checks start from the same synthetic baseline after a clean reset.
 - 2026-08-22: Keep demo notification examples aligned with the same synthetic user fixture used for quota and entitlement checks so screenshots cannot mix incompatible demo states.
 - 2026-08-22: Verify a full synthetic demo reset clears prior notification markers as well as quota and conversation state so the first post-reset walkthrough is reproducible end to end.
+- 2026-08-22: Before sharing any demo export, verify it contains only synthetic user identifiers and no copied production metadata, payment references, or conversation timestamps.
