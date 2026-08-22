@@ -9,3 +9,4 @@
 - 2026-08-21: Verify resetting the synthetic demo user restores the documented quota counter and clears stale AI conversation state without affecting payment or entitlement fixtures outside that demo user.
 - 2026-08-21: Verify the daily-tip demo skips blocked or inactive synthetic users without changing their request quota or creating misleading success records.
 - 2026-08-21: Recheck the documented demo reset order after tariff or quota changes so screenshots always begin from the same synthetic entitlement baseline.
+- 2026-08-22: Keep the documented demo user seed deterministic so quota, entitlement, and conversation-state checks start from the same synthetic baseline after a clean reset.
