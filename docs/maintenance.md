@@ -14,3 +14,4 @@
 - 2026-08-22: Verify a full synthetic demo reset clears prior notification markers as well as quota and conversation state so the first post-reset walkthrough is reproducible end to end.
 - 2026-08-22: Before sharing any demo export, verify it contains only synthetic user identifiers and no copied production metadata, payment references, or conversation timestamps.
 - 2026-08-23: Record the expected synthetic quota before and after one successful demo AI request so entitlement changes can be reviewed without using real user history.
+- 2026-08-23: Verify the synthetic daily-tip preview can be regenerated from the seeded demo user without depending on prior conversation history or external personal data.
