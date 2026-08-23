@@ -16,3 +16,4 @@
 - 2026-08-23: Record the expected synthetic quota before and after one successful demo AI request so entitlement changes can be reviewed without using real user history.
 - 2026-08-23: Verify the synthetic daily-tip preview can be regenerated from the seeded demo user without depending on prior conversation history or external personal data.
 - 2026-08-23: Keep AI, quota, entitlement, and notification examples tied to the same seeded synthetic user fixture so portfolio walkthroughs remain internally consistent.
+- 2026-08-23: After reseeding the synthetic demo user, verify quota, entitlement, notification markers, and conversation state all match the documented baseline before capturing portfolio output.
