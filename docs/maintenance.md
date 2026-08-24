@@ -18,3 +18,4 @@
 - 2026-08-23: Keep AI, quota, entitlement, and notification examples tied to the same seeded synthetic user fixture so portfolio walkthroughs remain internally consistent.
 - 2026-08-23: After reseeding the synthetic demo user, verify quota, entitlement, notification markers, and conversation state all match the documented baseline before capturing portfolio output.
 - 2026-08-24: Verify one synthetic quota-exhaustion example fails gracefully and does not mutate entitlement or payment state, so the documented limit behavior remains easy to review.
+- 2026-08-24: Verify a synthetic reset removes temporary demo conversation records while preserving only the documented seeded baseline needed for the next walkthrough.
