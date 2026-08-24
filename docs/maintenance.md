@@ -19,3 +19,4 @@
 - 2026-08-23: After reseeding the synthetic demo user, verify quota, entitlement, notification markers, and conversation state all match the documented baseline before capturing portfolio output.
 - 2026-08-24: Verify one synthetic quota-exhaustion example fails gracefully and does not mutate entitlement or payment state, so the documented limit behavior remains easy to review.
 - 2026-08-24: Verify a synthetic reset removes temporary demo conversation records while preserving only the documented seeded baseline needed for the next walkthrough.
+- 2026-08-24: After a synthetic reset, verify the first AI request and first daily-tip preview both start from the same seeded quota and entitlement baseline.
