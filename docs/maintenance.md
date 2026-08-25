@@ -22,3 +22,4 @@
 - 2026-08-24: After a synthetic reset, verify the first AI request and first daily-tip preview both start from the same seeded quota and entitlement baseline.
 - 2026-08-24: Keep one synthetic notification-preview check that confirms user-facing text renders without exposing internal IDs, quota keys, or payment reference fields.
 - 2026-08-25: After a demo reset, record only aggregate synthetic baseline counts (quota, entitlement, conversation, notification markers) so maintenance checks stay reproducible without retaining user-level or payment-level identifiers.
+- 2026-08-25: Verify the documented demo reset returns quota, entitlement, conversation, and notification state to the same synthetic baseline in one pass, without requiring manual cleanup.
