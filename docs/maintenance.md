@@ -24,3 +24,4 @@
 - 2026-08-25: After a demo reset, record only aggregate synthetic baseline counts (quota, entitlement, conversation, notification markers) so maintenance checks stay reproducible without retaining user-level or payment-level identifiers.
 - 2026-08-25: Verify the documented demo reset returns quota, entitlement, conversation, and notification state to the same synthetic baseline in one pass, without requiring manual cleanup.
 - 2026-08-25: Verify the user-facing demo quota shown after one synthetic AI request matches the documented aggregate quota change, without exposing internal entitlement identifiers.
+- 2026-08-25: Verify the first post-reset synthetic notification starts from the same seeded quota and entitlement baseline as the AI and daily-tip demo flows, with no stale notification markers.
