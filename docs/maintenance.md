@@ -26,3 +26,4 @@
 - 2026-08-25: Verify the user-facing demo quota shown after one synthetic AI request matches the documented aggregate quota change, without exposing internal entitlement identifiers.
 - 2026-08-25: Verify the first post-reset synthetic notification starts from the same seeded quota and entitlement baseline as the AI and daily-tip demo flows, with no stale notification markers.
 - 2026-08-26: Keep one synthetic locale-switch check so demo prompts, quota state, and notification previews remain consistent when the user-facing language changes.
+- 2026-08-26: Verify changing the synthetic demo user's timezone does not alter quota or entitlement state and only affects documented scheduling behavior.
