@@ -32,3 +32,4 @@
 - 2026-08-27: Verify deleting and reseeding the synthetic demo user restores the same aggregate quota, entitlement, conversation, and notification baseline without reusing prior synthetic identifiers.
 - 2026-08-27: Verify running the documented synthetic reset twice is idempotent and leaves the same aggregate quota, entitlement, conversation, and notification baseline each time.
 - 2026-08-27: Verify a synthetic reset followed by a read-only demo preview cannot mutate quota, entitlement, conversation, or notification state before the first intentional demo action.
+- 2026-08-27: Verify user-facing demo error messages stay generic and actionable while internal exception details remain out of screenshots, exports, and portfolio logs.
