@@ -29,3 +29,4 @@
 - 2026-08-26: Verify changing the synthetic demo user's timezone does not alter quota or entitlement state and only affects documented scheduling behavior.
 - 2026-08-26: Verify scheduled synthetic daily-tip checks never read or mutate conversation, quota, or entitlement state belonging to any non-demo user.
 - 2026-08-26: Verify a full synthetic demo reset changes only the designated demo fixture and leaves aggregate state for all non-demo users untouched.
+- 2026-08-27: Verify deleting and reseeding the synthetic demo user restores the same aggregate quota, entitlement, conversation, and notification baseline without reusing prior synthetic identifiers.
