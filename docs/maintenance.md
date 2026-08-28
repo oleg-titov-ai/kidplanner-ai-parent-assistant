@@ -34,3 +34,4 @@
 - 2026-08-27: Verify a synthetic reset followed by a read-only demo preview cannot mutate quota, entitlement, conversation, or notification state before the first intentional demo action.
 - 2026-08-27: Verify user-facing demo error messages stay generic and actionable while internal exception details remain out of screenshots, exports, and portfolio logs.
 - 2026-08-28: After reseeding the synthetic demo user, verify the next scheduled daily-tip timestamp is derived from the documented demo timezone and contains no stale schedule state from the prior fixture.
+- 2026-08-28: Verify changing the synthetic demo timezone recalculates only the next daily-tip schedule while leaving quota, entitlement, payment, and conversation baselines unchanged.
