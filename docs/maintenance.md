@@ -37,3 +37,4 @@
 - 2026-08-28: Verify changing the synthetic demo timezone recalculates only the next daily-tip schedule while leaving quota, entitlement, payment, and conversation baselines unchanged.
 - 2026-08-28: Keep one synthetic expired-entitlement preview check that shows the expected user-facing limit state without changing payment fixtures or exposing internal entitlement identifiers.
 - 2026-08-28: After reseeding, verify the synthetic user's documented timezone is restored before calculating the next daily-tip schedule so prior demo locale changes cannot leak into a fresh walkthrough.
+- 2026-08-29: Verify a synthetic user switching locale and timezone in the same walkthrough changes only presentation and scheduling fields, not quota, entitlement, payment, or conversation baseline state.
