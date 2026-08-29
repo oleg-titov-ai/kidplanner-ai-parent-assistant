@@ -38,3 +38,4 @@
 - 2026-08-28: Keep one synthetic expired-entitlement preview check that shows the expected user-facing limit state without changing payment fixtures or exposing internal entitlement identifiers.
 - 2026-08-28: After reseeding, verify the synthetic user's documented timezone is restored before calculating the next daily-tip schedule so prior demo locale changes cannot leak into a fresh walkthrough.
 - 2026-08-29: Verify a synthetic user switching locale and timezone in the same walkthrough changes only presentation and scheduling fields, not quota, entitlement, payment, or conversation baseline state.
+- 2026-08-29: Keep one synthetic notification-preview check for an empty optional profile field so rendering remains clean without exposing null sentinels or internal keys.
