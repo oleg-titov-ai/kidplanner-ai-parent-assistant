@@ -40,3 +40,4 @@
 - 2026-08-29: Verify a synthetic user switching locale and timezone in the same walkthrough changes only presentation and scheduling fields, not quota, entitlement, payment, or conversation baseline state.
 - 2026-08-29: Keep one synthetic notification-preview check for an empty optional profile field so rendering remains clean without exposing null sentinels or internal keys.
 - 2026-08-29: Keep the documented next-tip schedule check tied to the synthetic fixture ID and timezone only, without retaining real user timing or delivery metadata.
+- 2026-08-30: Verify read-only portfolio previews never trigger quota accounting, payment reconciliation, or conversation persistence, keeping synthetic demonstrations isolated from state-changing flows.
