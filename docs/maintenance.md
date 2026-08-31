@@ -47,3 +47,4 @@
 - 2026-08-31: Verify a synthetic preview rendered after a clean reseed uses only the seeded locale and timezone defaults, with no carryover from the previous demo session.
 - 2026-08-31: Verify a read-only synthetic daily-tip preview remains repeatable across an application restart without persisting preview output or advancing schedule state.
 - 2026-08-31: Verify demo fixture cleanup removes temporary locale, timezone, and preview overrides before the next seeded walkthrough, while leaving non-demo user state untouched.
+- 2026-08-31: Verify a synthetic read-only preview after cleanup reproduces the seeded baseline without creating new quota, entitlement, conversation, payment, or notification records.
