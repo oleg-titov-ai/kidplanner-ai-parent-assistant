@@ -45,3 +45,4 @@
 - 2026-08-30: Verify repeated read-only previews for the same synthetic fixture produce equivalent user-facing output without advancing quota, schedule, payment, or notification state.
 - 2026-08-30: Keep portfolio preview timestamps fixed or synthetic so repeated screenshots remain comparable without revealing real user activity times.
 - 2026-08-31: Verify a synthetic preview rendered after a clean reseed uses only the seeded locale and timezone defaults, with no carryover from the previous demo session.
+- 2026-08-31: Verify a read-only synthetic daily-tip preview remains repeatable across an application restart without persisting preview output or advancing schedule state.
