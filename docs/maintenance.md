@@ -50,3 +50,4 @@
 - 2026-08-31: Verify a synthetic read-only preview after cleanup reproduces the seeded baseline without creating new quota, entitlement, conversation, payment, or notification records.
 - 2026-09-01: Verify synthetic preview cleanup also removes transient rendering diagnostics so repeated portfolio previews cannot inherit display-only state from an earlier run.
 - 2026-09-02: Verify a synthetic preview generated with an unsupported locale falls back to the documented demo locale without persisting a locale override or changing quota, schedule, or notification state.
+- 2026-09-03: Verify a synthetic preview with a missing optional profile value renders a neutral fallback without persisting placeholder data or changing quota, entitlement, schedule, or notification state.
