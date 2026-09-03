@@ -230,3 +230,5 @@ Maintenance note: verify a freshly reset demo user starts from the documented re
 Maintenance note: confirm daily-tip and AI-response demo flows use only the same synthetic user state and never reference production identities.
 
 Maintenance note: after a synthetic payment demo, verify the displayed request allowance matches the stored entitlement state before capturing screenshots.
+
+Maintenance note: verify a read-only demo preview cannot create payment, quota, or conversation records when optional profile data is absent.
