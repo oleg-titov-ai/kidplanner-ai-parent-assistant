@@ -9,6 +9,7 @@ This file keeps lightweight maintenance rules for KidPlanner AI Parent Assistant
 - Check subscription and request-count logic after database changes.
 - Keep parent-facing copy clear and safe.
 - Update product notes when scope changes.
+- Confirm read-only demo previews remain side-effect free before refreshing portfolio screenshots.
 
 ## Safe Data Rules
 
