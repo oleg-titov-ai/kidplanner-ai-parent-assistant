@@ -55,3 +55,4 @@
 - 2026-09-03: Verify a synthetic read-only preview rendering error returns generic portfolio-safe guidance and leaves all quota, entitlement, conversation, payment, schedule, and notification state unchanged.
 - 2026-09-04: Verify a synthetic read-only preview timeout returns generic guidance and leaves quota, entitlement, conversation, payment, schedule, and notification state unchanged.
 - 2026-09-04: Verify a repeated synthetic preview request with the same fixture remains read-only and does not create duplicate analytics, notification, or conversation records.
+- 2026-09-04: Verify a read-only preview cannot modify the seeded synthetic fixture itself, so repeated portfolio checks always begin from the same documented profile data.
