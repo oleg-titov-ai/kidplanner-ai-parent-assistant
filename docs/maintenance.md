@@ -54,3 +54,4 @@
 - 2026-09-03: Verify cancelling a synthetic read-only preview before rendering completes leaves quota, entitlement, conversation, payment, schedule, and notification state unchanged.
 - 2026-09-03: Verify a synthetic read-only preview rendering error returns generic portfolio-safe guidance and leaves all quota, entitlement, conversation, payment, schedule, and notification state unchanged.
 - 2026-09-04: Verify a synthetic read-only preview timeout returns generic guidance and leaves quota, entitlement, conversation, payment, schedule, and notification state unchanged.
+- 2026-09-04: Verify a repeated synthetic preview request with the same fixture remains read-only and does not create duplicate analytics, notification, or conversation records.
