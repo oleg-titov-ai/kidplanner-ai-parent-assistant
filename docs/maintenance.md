@@ -53,3 +53,4 @@
 - 2026-09-03: Verify a synthetic preview with a missing optional profile value renders a neutral fallback without persisting placeholder data or changing quota, entitlement, schedule, or notification state.
 - 2026-09-03: Verify cancelling a synthetic read-only preview before rendering completes leaves quota, entitlement, conversation, payment, schedule, and notification state unchanged.
 - 2026-09-03: Verify a synthetic read-only preview rendering error returns generic portfolio-safe guidance and leaves all quota, entitlement, conversation, payment, schedule, and notification state unchanged.
+- 2026-09-04: Verify a synthetic read-only preview timeout returns generic guidance and leaves quota, entitlement, conversation, payment, schedule, and notification state unchanged.
