@@ -57,3 +57,4 @@
 - 2026-09-04: Verify a repeated synthetic preview request with the same fixture remains read-only and does not create duplicate analytics, notification, or conversation records.
 - 2026-09-04: Verify a read-only preview cannot modify the seeded synthetic fixture itself, so repeated portfolio checks always begin from the same documented profile data.
 - 2026-09-05: Verify a read-only synthetic preview with an unknown optional preference ignores that preference safely and leaves the seeded fixture, quota, entitlement, schedule, and notification state unchanged.
+- 2026-09-05: Verify a read-only synthetic preview with an empty optional display name uses neutral copy without persisting a replacement name or altering quota, entitlement, schedule, or notification state.
