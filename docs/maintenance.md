@@ -59,3 +59,4 @@
 - 2026-09-05: Verify a read-only synthetic preview with an unknown optional preference ignores that preference safely and leaves the seeded fixture, quota, entitlement, schedule, and notification state unchanged.
 - 2026-09-05: Verify a read-only synthetic preview with an empty optional display name uses neutral copy without persisting a replacement name or altering quota, entitlement, schedule, or notification state.
 - 2026-09-05: Verify a read-only synthetic preview with an invalid optional timezone is rejected or falls back predictably without persisting a timezone change or altering quota, entitlement, schedule, payment, conversation, or notification state.
+- 2026-09-05: Verify an oversized optional display field in a read-only synthetic preview is rejected or truncated predictably without persisting the altered value or changing quota, entitlement, payment, schedule, conversation, or notification state.
