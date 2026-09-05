@@ -58,3 +58,4 @@
 - 2026-09-04: Verify a read-only preview cannot modify the seeded synthetic fixture itself, so repeated portfolio checks always begin from the same documented profile data.
 - 2026-09-05: Verify a read-only synthetic preview with an unknown optional preference ignores that preference safely and leaves the seeded fixture, quota, entitlement, schedule, and notification state unchanged.
 - 2026-09-05: Verify a read-only synthetic preview with an empty optional display name uses neutral copy without persisting a replacement name or altering quota, entitlement, schedule, or notification state.
+- 2026-09-05: Verify a read-only synthetic preview with an invalid optional timezone is rejected or falls back predictably without persisting a timezone change or altering quota, entitlement, schedule, payment, conversation, or notification state.
