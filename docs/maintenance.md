@@ -62,3 +62,4 @@
 - 2026-09-05: Verify an oversized optional display field in a read-only synthetic preview is rejected or truncated predictably without persisting the altered value or changing quota, entitlement, payment, schedule, conversation, or notification state.
 - 2026-09-06: Verify a read-only preview for a missing synthetic fixture returns a generic not-found result without creating a user, quota, entitlement, schedule, payment, conversation, analytics, or notification record.
 - 2026-09-06: Verify a read-only synthetic preview does not update last-seen, updated-at, or similar activity timestamps, keeping repeated portfolio checks side-effect free.
+- 2026-09-06: Verify a read-only synthetic preview does not enqueue background jobs, cache writes, or deferred notifications, so no side effect appears after the preview response completes.
