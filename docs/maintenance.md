@@ -64,3 +64,4 @@
 - 2026-09-06: Verify a read-only synthetic preview does not update last-seen, updated-at, or similar activity timestamps, keeping repeated portfolio checks side-effect free.
 - 2026-09-06: Verify a read-only synthetic preview does not enqueue background jobs, cache writes, or deferred notifications, so no side effect appears after the preview response completes.
 - 2026-09-06: Verify previewing an expired synthetic entitlement remains read-only and does not trigger payment reconciliation, entitlement renewal, quota mutation, or external billing lookups.
+- 2026-09-07: Verify a read-only synthetic preview does not consume or refresh rate-limit counters, keeping portfolio previews side-effect free even when request throttling is enabled.
