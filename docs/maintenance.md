@@ -66,3 +66,4 @@
 - 2026-09-06: Verify previewing an expired synthetic entitlement remains read-only and does not trigger payment reconciliation, entitlement renewal, quota mutation, or external billing lookups.
 - 2026-09-07: Verify a read-only synthetic preview does not consume or refresh rate-limit counters, keeping portfolio previews side-effect free even when request throttling is enabled.
 - 2026-09-08: Verify a read-only synthetic preview bypasses shared response caches or uses demo-scoped cache keys so portfolio checks cannot read or populate state shared with real users.
+- 2026-09-08: Verify a read-only synthetic preview does not create or persist feature-flag or experiment assignments, keeping portfolio output isolated from stateful rollout logic.
