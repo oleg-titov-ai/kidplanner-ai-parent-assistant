@@ -70,3 +70,4 @@
 - 2026-09-08: Verify a read-only synthetic preview bypasses shared response caches or uses demo-scoped cache keys so portfolio checks cannot read or populate state shared with real users.
 - 2026-09-08: Verify a read-only synthetic preview does not create or persist feature-flag or experiment assignments, keeping portfolio output isolated from stateful rollout logic.
 - 2026-09-09: Verify a read-only synthetic preview cannot create billing-customer, checkout-session, or payment-reference records when those records are absent, keeping the portfolio path strictly non-mutating.
+- 2026-09-14: Verify a read-only synthetic notification preview does not create channel subscriptions, delivery preferences, webhook registrations, or deferred-send records when those records are absent.
