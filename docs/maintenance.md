@@ -1,6 +1,6 @@
 # Maintenance
 
-> Current maintenance focus (2026-09-14): keep portfolio previews strictly read-only across quota, billing, scheduling, caching, analytics, conversation, and notification state.
+> Current maintenance focus (2026-09-14): keep portfolio preview paths strictly read-only, including telemetry and freshness timestamps, while preserving deterministic output from seeded synthetic fixtures.
 
 - 2026-08-19: Keep demo reset verification tied to payment state: a fresh portfolio walkthrough should begin with the documented request-limit baseline and no stale synthetic payment references or entitlements.
 - 2026-08-20: Confirm daily-tip and AI demo flows consume only the documented synthetic entitlement state so portfolio screenshots remain deterministic and non-sensitive.
