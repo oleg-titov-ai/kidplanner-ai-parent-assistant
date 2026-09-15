@@ -7,7 +7,7 @@ Small practical improvements to consider next.
 - Link product documentation from the README.
 - Add a demo parent journey.
 - Add safe sample messages.
-- Clarify request limits.
+- Clarify that portfolio previews never consume request limits.
 
 ## Medium Term
 
