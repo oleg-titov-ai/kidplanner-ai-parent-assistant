@@ -232,3 +232,5 @@ Maintenance note: confirm daily-tip and AI-response demo flows use only the same
 Maintenance note: after a synthetic payment demo, verify the displayed request allowance matches the stored entitlement state before capturing screenshots.
 
 Maintenance note: verify a read-only demo preview cannot create payment, quota, or conversation records when optional profile data is absent.
+
+Maintenance note: verify read-only previews leave activity, audit, access, and freshness timestamps unchanged.
