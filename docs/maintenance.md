@@ -1,6 +1,6 @@
 # Maintenance
 
-> Current maintenance focus (2026-09-15): keep portfolio preview paths transactionally read-only and cancellation-safe, including telemetry, freshness, access, audit, cache, quota, and background-job state, while preserving deterministic output from seeded synthetic fixtures.
+> Current maintenance focus (2026-09-16): keep portfolio preview paths transactionally read-only and cancellation-safe, ideally enforced with a read-only database role/transaction, while preserving deterministic seeded output and preventing writes to telemetry, freshness, access, audit, cache, quota, billing, scheduling, or background-job state.
 
 - 2026-08-19: Keep demo reset verification tied to payment state: a fresh portfolio walkthrough should begin with the documented request-limit baseline and no stale synthetic payment references or entitlements.
 - 2026-08-20: Confirm daily-tip and AI demo flows consume only the documented synthetic entitlement state so portfolio screenshots remain deterministic and non-sensitive.
