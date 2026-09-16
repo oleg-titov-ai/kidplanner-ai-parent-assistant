@@ -234,3 +234,5 @@ Maintenance note: after a synthetic payment demo, verify the displayed request a
 Maintenance note: verify a read-only demo preview cannot create payment, quota, or conversation records when optional profile data is absent.
 
 Maintenance note: verify read-only previews leave activity, audit, access, and freshness timestamps unchanged.
+
+Maintenance note: verify read-only previews also leave rate-limit counters and cache state untouched so repeated portfolio checks remain side-effect free.
