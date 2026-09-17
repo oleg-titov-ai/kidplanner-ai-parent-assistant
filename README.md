@@ -236,3 +236,5 @@ Maintenance note: verify a read-only demo preview cannot create payment, quota, 
 Maintenance note: verify read-only previews leave activity, audit, access, and freshness timestamps unchanged.
 
 Maintenance note: verify read-only previews also leave rate-limit counters and cache state untouched so repeated portfolio checks remain side-effect free.
+
+Maintenance note: enforce portfolio previews with a database-level read-only connection or transaction so accidental writes fail closed.
