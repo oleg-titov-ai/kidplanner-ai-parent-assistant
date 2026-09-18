@@ -12,6 +12,7 @@ Small practical improvements to consider next.
 - Add a regression test proving cancelled previews leave zero writes in demo-scoped stores.
 - Add a database-level assertion that preview transactions remain read-only for their full lifetime.
 - Add a regression check that preview mode cannot enqueue background jobs or deferred notifications.
+- Add a failed-AI-call preview check confirming no quota is consumed and no conversation history is written.
 
 ## Medium Term
 
