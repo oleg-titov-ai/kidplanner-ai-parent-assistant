@@ -242,3 +242,5 @@ Maintenance note: run portfolio previews in a database read-only transaction; ch
 Maintenance note: verify a preview timeout rolls back cleanly and leaves no partial quota or history update.
 
 Maintenance note: verify a timed-out preview leaves quota, history, and queued work unchanged before retrying.
+
+Maintenance note: verify a preview timeout emits no deferred notification and leaves the user history unchanged.
