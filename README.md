@@ -238,3 +238,5 @@ Maintenance note: verify read-only previews leave activity, audit, access, and f
 Maintenance note: verify read-only previews also leave rate-limit counters and cache state untouched so repeated portfolio checks remain side-effect free.
 
 Maintenance note: run portfolio previews in a database read-only transaction; check quota, history, and queued jobs remain unchanged after success and failure.
+
+Maintenance note: verify a preview timeout rolls back cleanly and leaves no partial quota or history update.
