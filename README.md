@@ -244,3 +244,5 @@ Maintenance note: verify a preview timeout rolls back cleanly and leaves no part
 Maintenance note: verify a timed-out preview leaves quota, history, and queued work unchanged before retrying.
 
 Maintenance note: verify a preview timeout emits no deferred notification and leaves the user history unchanged.
+
+Maintenance note: verify read-only preview checks leave request limits and rate-limit counters unchanged.
