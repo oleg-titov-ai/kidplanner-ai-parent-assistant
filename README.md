@@ -248,3 +248,5 @@ Maintenance note: verify a preview timeout emits no deferred notification and le
 Maintenance note: verify read-only preview checks leave request limits and rate-limit counters unchanged.
 
 Maintenance note: verify a failed preview leaves cache state and quota unchanged before a retry.
+
+Maintenance note: verify preview-only requests never update `last_sent_at` or schedule a daily-tip delivery.
