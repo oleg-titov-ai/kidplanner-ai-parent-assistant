@@ -250,3 +250,5 @@ Maintenance note: verify read-only preview checks leave request limits and rate-
 Maintenance note: verify a failed preview leaves cache state and quota unchanged before a retry.
 
 Maintenance note: verify preview-only requests never update `last_sent_at` or schedule a daily-tip delivery.
+
+Maintenance note: verify a rejected payment webhook cannot change quota, tariff, history, or preview state.
