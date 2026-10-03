@@ -256,3 +256,5 @@ Maintenance note: verify a rejected payment webhook cannot change quota, tariff,
 Maintenance note: verify the daily-tip scheduler skips missing or invalid chat IDs without consuming quota or retrying indefinitely.
 
 Maintenance note: verify a permanent Telegram delivery error marks the destination unavailable without consuming user quota or retrying indefinitely.
+
+Maintenance note: verify replaying the same payment event updates quota at most once and returns a consistent acknowledgement.
