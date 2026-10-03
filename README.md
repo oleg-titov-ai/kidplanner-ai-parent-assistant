@@ -252,3 +252,5 @@ Maintenance note: verify a failed preview leaves cache state and quota unchanged
 Maintenance note: verify preview-only requests never update `last_sent_at` or schedule a daily-tip delivery.
 
 Maintenance note: verify a rejected payment webhook cannot change quota, tariff, history, or preview state.
+
+Maintenance note: verify the daily-tip scheduler skips missing or invalid chat IDs without consuming quota or retrying indefinitely.
