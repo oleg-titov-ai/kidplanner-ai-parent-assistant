@@ -254,3 +254,5 @@ Maintenance note: verify preview-only requests never update `last_sent_at` or sc
 Maintenance note: verify a rejected payment webhook cannot change quota, tariff, history, or preview state.
 
 Maintenance note: verify the daily-tip scheduler skips missing or invalid chat IDs without consuming quota or retrying indefinitely.
+
+Maintenance note: verify a permanent Telegram delivery error marks the destination unavailable without consuming user quota or retrying indefinitely.
