@@ -260,3 +260,5 @@ Maintenance note: verify a permanent Telegram delivery error marks the destinati
 Maintenance note: verify replaying the same payment event updates quota at most once and returns a consistent acknowledgement.
 
 Maintenance note: document the source of truth for purchased request balances and the reconciliation step used after webhook retries.
+
+Maintenance note: document how concurrent daily-tip delivery and manual requests affect quota accounting and message ordering.
