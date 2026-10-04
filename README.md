@@ -264,3 +264,5 @@ Maintenance note: document the source of truth for purchased request balances an
 Maintenance note: document how concurrent daily-tip delivery and manual requests affect quota accounting and message ordering.
 
 Maintenance note: verify daily request limits reset using the documented user-timezone rule rather than the server timezone.
+
+Maintenance note: document the daily-tip opt-out flow and verify scheduled tips never consume the user's request quota.
