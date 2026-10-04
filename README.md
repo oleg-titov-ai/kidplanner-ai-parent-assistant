@@ -258,3 +258,5 @@ Maintenance note: verify the daily-tip scheduler skips missing or invalid chat I
 Maintenance note: verify a permanent Telegram delivery error marks the destination unavailable without consuming user quota or retrying indefinitely.
 
 Maintenance note: verify replaying the same payment event updates quota at most once and returns a consistent acknowledgement.
+
+Maintenance note: document the source of truth for purchased request balances and the reconciliation step used after webhook retries.
