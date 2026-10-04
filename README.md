@@ -262,3 +262,5 @@ Maintenance note: verify replaying the same payment event updates quota at most 
 Maintenance note: document the source of truth for purchased request balances and the reconciliation step used after webhook retries.
 
 Maintenance note: document how concurrent daily-tip delivery and manual requests affect quota accounting and message ordering.
+
+Maintenance note: verify daily request limits reset using the documented user-timezone rule rather than the server timezone.
