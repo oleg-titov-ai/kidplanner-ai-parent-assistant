@@ -268,3 +268,5 @@ Maintenance note: verify daily request limits reset using the documented user-ti
 Maintenance note: document the daily-tip opt-out flow and verify scheduled tips never consume the user's request quota.
 
 Maintenance note: document retention and redaction rules for conversation-history examples used in portfolio demonstrations.
+
+Maintenance note: verify a failed AI-provider request does not consume quota and returns a clear retry-safe response.
