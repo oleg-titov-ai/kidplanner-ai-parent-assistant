@@ -266,3 +266,5 @@ Maintenance note: document how concurrent daily-tip delivery and manual requests
 Maintenance note: verify daily request limits reset using the documented user-timezone rule rather than the server timezone.
 
 Maintenance note: document the daily-tip opt-out flow and verify scheduled tips never consume the user's request quota.
+
+Maintenance note: document retention and redaction rules for conversation-history examples used in portfolio demonstrations.
