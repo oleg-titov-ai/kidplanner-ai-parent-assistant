@@ -274,3 +274,5 @@ Maintenance note: verify a failed AI-provider request does not consume quota and
 Maintenance note: document the fallback when voice transcription is unavailable and verify failed transcription does not consume quota.
 
 Maintenance note: document timeout handling for AI responses so retries preserve conversation order without double-charging quota.
+
+- Document how context clearing affects conversation history while leaving usage quotas unchanged.
