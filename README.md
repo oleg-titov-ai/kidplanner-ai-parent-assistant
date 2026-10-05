@@ -270,3 +270,5 @@ Maintenance note: document the daily-tip opt-out flow and verify scheduled tips 
 Maintenance note: document retention and redaction rules for conversation-history examples used in portfolio demonstrations.
 
 Maintenance note: verify a failed AI-provider request does not consume quota and returns a clear retry-safe response.
+
+Maintenance note: document the fallback when voice transcription is unavailable and verify failed transcription does not consume quota.
