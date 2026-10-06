@@ -280,3 +280,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document the user-facing behavior when voice transcription succeeds but the downstream assistant response times out.
 
 - Document how repeated payment callbacks are handled so purchased request credits are applied exactly once.
+
+- Document how daily advice scheduling behaves when a user changes timezone close to the scheduled send time.
