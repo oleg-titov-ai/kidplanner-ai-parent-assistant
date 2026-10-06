@@ -284,3 +284,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document how daily advice scheduling behaves when a user changes timezone close to the scheduled send time.
 
 - Document the fallback shown to users when payment confirmation is delayed but the original payment request is still pending.
+
+- Document how quota counters are reconciled if an assistant request finishes after the client has disconnected.
