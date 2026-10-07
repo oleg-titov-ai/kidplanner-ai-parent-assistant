@@ -290,3 +290,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document the user-visible status shown when a scheduled tip is generated successfully but delivery is deferred.
 
 - Document how message history is trimmed when the context limit is reached while preserving the latest user intent.
+
+- Document how concurrent messages from the same user are ordered to keep conversation context predictable.
