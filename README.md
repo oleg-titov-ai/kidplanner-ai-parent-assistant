@@ -296,3 +296,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document how the assistant handles unsupported voice-message formats without consuming a request credit.
 
 - Document how an expired payment session is presented without losing the user's original purchase choice.
+
+- Document how refunded or reversed payments adjust purchased request credits without producing a negative balance.
