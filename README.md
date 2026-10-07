@@ -294,3 +294,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document how concurrent messages from the same user are ordered to keep conversation context predictable.
 
 - Document how the assistant handles unsupported voice-message formats without consuming a request credit.
+
+- Document how an expired payment session is presented without losing the user's original purchase choice.
