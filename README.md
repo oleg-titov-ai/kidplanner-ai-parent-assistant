@@ -304,3 +304,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document the account-deletion workflow for conversation history, scheduled tips, and non-sensitive quota records.
 
 - Document how account deletion requests interact with pending payment callbacks and purchased-credit reconciliation.
+
+- Document how payment records required for reconciliation remain separated from deleted conversation and profile data.
