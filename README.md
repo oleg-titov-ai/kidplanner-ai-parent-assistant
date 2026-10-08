@@ -302,3 +302,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document how delivery resumes safely after a user unblocks the bot without sending missed daily tips in a burst.
 
 - Document the account-deletion workflow for conversation history, scheduled tips, and non-sensitive quota records.
+
+- Document how account deletion requests interact with pending payment callbacks and purchased-credit reconciliation.
