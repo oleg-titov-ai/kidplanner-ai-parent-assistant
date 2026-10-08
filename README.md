@@ -300,3 +300,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document how refunded or reversed payments adjust purchased request credits without producing a negative balance.
 
 - Document how delivery resumes safely after a user unblocks the bot without sending missed daily tips in a burst.
+
+- Document the account-deletion workflow for conversation history, scheduled tips, and non-sensitive quota records.
