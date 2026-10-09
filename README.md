@@ -308,3 +308,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document how payment records required for reconciliation remain separated from deleted conversation and profile data.
 
 - Document safe defaults and user-visible recovery when stored scheduling or preference values are malformed.
+
+- Document how language changes affect queued daily tips without altering quotas or conversation history.
