@@ -312,3 +312,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document how language changes affect queued daily tips without altering quotas or conversation history.
 
 - Document how invalid or obsolete timezone identifiers are detected and corrected without duplicating scheduled tips.
+
+- Document validation for payment amount and currency mismatches before purchased credits are applied.
