@@ -324,3 +324,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document how conversation-history retention changes preserve consent settings and avoid exposing archived family data.
 
 - Document the user-visible boundary for age-sensitive parenting guidance and the fallback to general educational information.
+
+- Document redaction of payment references and receipt metadata from user-facing support diagnostics.
