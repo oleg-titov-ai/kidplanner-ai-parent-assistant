@@ -320,3 +320,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document how notification and consent preferences remain associated with an account after the Telegram username changes.
 
 - Document the safe user prompt used when detected voice-message language differs from the saved conversation language.
+
+- Document how conversation-history retention changes preserve consent settings and avoid exposing archived family data.
