@@ -322,3 +322,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document the safe user prompt used when detected voice-message language differs from the saved conversation language.
 
 - Document how conversation-history retention changes preserve consent settings and avoid exposing archived family data.
+
+- Document the user-visible boundary for age-sensitive parenting guidance and the fallback to general educational information.
