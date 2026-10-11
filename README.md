@@ -328,3 +328,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document redaction of payment references and receipt metadata from user-facing support diagnostics.
 
 - Document quota-reset boundaries when a family changes its saved timezone near the daily reset time.
+
+- Document account-deletion propagation across conversation history, support caches, and scheduled-message queues.
