@@ -334,3 +334,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document recovery of linked parent preferences after a restart interrupts an in-progress profile update.
 
 - Document how scheduled guidance is suppressed while an account export or deletion request is in progress.
+
+- Document idempotent handling of out-of-order payment status webhooks so request balances remain consistent.
