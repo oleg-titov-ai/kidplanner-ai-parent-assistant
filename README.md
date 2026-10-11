@@ -332,3 +332,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document account-deletion propagation across conversation history, support caches, and scheduled-message queues.
 
 - Document recovery of linked parent preferences after a restart interrupts an in-progress profile update.
+
+- Document how scheduled guidance is suppressed while an account export or deletion request is in progress.
