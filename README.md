@@ -326,3 +326,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document the user-visible boundary for age-sensitive parenting guidance and the fallback to general educational information.
 
 - Document redaction of payment references and receipt metadata from user-facing support diagnostics.
+
+- Document quota-reset boundaries when a family changes its saved timezone near the daily reset time.
