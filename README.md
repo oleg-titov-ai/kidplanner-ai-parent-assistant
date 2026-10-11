@@ -330,3 +330,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document quota-reset boundaries when a family changes its saved timezone near the daily reset time.
 
 - Document account-deletion propagation across conversation history, support caches, and scheduled-message queues.
+
+- Document recovery of linked parent preferences after a restart interrupts an in-progress profile update.
