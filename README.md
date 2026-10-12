@@ -342,3 +342,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document conflict resolution when multiple linked caregivers update the same child preferences concurrently.
 
 - Document age-based guidance recalculation after a child's birthday so scheduled advice uses the current age range.
+
+- Document how archived child profiles are excluded from scheduled guidance without deleting retained account history.
