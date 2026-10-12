@@ -336,3 +336,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document how scheduled guidance is suppressed while an account export or deletion request is in progress.
 
 - Document idempotent handling of out-of-order payment status webhooks so request balances remain consistent.
+
+- Document locale fallback for scheduled guidance when a family profile contains an unsupported language code.
