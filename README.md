@@ -344,3 +344,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document age-based guidance recalculation after a child's birthday so scheduled advice uses the current age range.
 
 - Document how archived child profiles are excluded from scheduled guidance without deleting retained account history.
+
+- Document immediate suspension of generated and scheduled guidance after a caregiver revokes processing consent.
