@@ -340,3 +340,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document locale fallback for scheduled guidance when a family profile contains an unsupported language code.
 
 - Document conflict resolution when multiple linked caregivers update the same child preferences concurrently.
+
+- Document age-based guidance recalculation after a child's birthday so scheduled advice uses the current age range.
