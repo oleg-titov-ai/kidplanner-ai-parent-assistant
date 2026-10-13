@@ -346,3 +346,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document how archived child profiles are excluded from scheduled guidance without deleting retained account history.
 
 - Document immediate suspension of generated and scheduled guidance after a caregiver revokes processing consent.
+
+- Document strict profile isolation when a caregiver manages guidance and history for multiple children.
