@@ -354,3 +354,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document the fallback flow for low-confidence voice transcription before parenting guidance is generated.
 
 - Document how notification preferences are merged when a caregiver relinks an existing family account from a new Telegram profile.
+
+- Document guardian notification behavior when scheduled advice is generated after the daily usage limit has been reached.
