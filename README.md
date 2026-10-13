@@ -350,3 +350,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document strict profile isolation when a caregiver manages guidance and history for multiple children.
 
 - Document how scheduled guidance pauses for inactive family accounts and resumes without duplicate delivery.
+
+- Document the fallback flow for low-confidence voice transcription before parenting guidance is generated.
