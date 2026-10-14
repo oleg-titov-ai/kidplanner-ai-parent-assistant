@@ -351,7 +351,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document how scheduled guidance pauses for inactive family accounts and resumes without duplicate delivery.
 
-- Document the fallback flow for low-confidence voice transcription before parenting guidance is generated.
+- Document the fallback flow for low-confidence voice transcription before parenting guidance is generated; use synthetic input to specify the clarification prompt and verify that an unconfirmed transcript is not saved as confirmed family context.
 
 - Document how notification preferences are merged when a caregiver relinks an existing family account from a new Telegram profile.
 
