@@ -347,7 +347,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document immediate suspension of generated and scheduled guidance after a caregiver revokes processing consent.
 
-- Document strict profile isolation when a caregiver manages guidance and history for multiple children.
+- Document strict profile isolation when a caregiver manages guidance and history for multiple children; use two synthetic profiles with distinct history markers to verify switching profiles does not reuse the other child's conversation context.
 
 - Document how scheduled guidance pauses for inactive family accounts and resumes without duplicate delivery.
 
