@@ -355,4 +355,4 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document how notification preferences are merged when a caregiver relinks an existing family account from a new Telegram profile.
 
-- Document guardian notification behavior when scheduled advice is generated after the daily usage limit has been reached.
+- Document guardian notification behavior when scheduled advice is generated after the daily usage limit has been reached; cover synthetic accounts just below, at, and above the limit, recording the expected delivery and quota result without family data.
