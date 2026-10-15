@@ -345,7 +345,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document how archived child profiles are excluded from scheduled guidance without deleting retained account history; use one active and one archived synthetic profile to verify recipient selection and that archiving leaves retained history unchanged.
 
-- Document immediate suspension of generated and scheduled guidance after a caregiver revokes processing consent.
+- Document immediate suspension of generated and scheduled guidance after a caregiver revokes processing consent; use a synthetic account with queued advice to verify a final consent check suppresses unsent messages without logging family context.
 
 - Document strict profile isolation when a caregiver manages guidance and history for multiple children; use two synthetic profiles with distinct history markers to verify switching profiles does not reuse the other child's conversation context.
 
