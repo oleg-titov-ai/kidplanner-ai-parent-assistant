@@ -349,7 +349,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document strict profile isolation when a caregiver manages guidance and history for multiple children; use two synthetic profiles with distinct history markers to verify switching profiles does not reuse the other child's conversation context.
 
-- Document how scheduled guidance pauses for inactive family accounts and resumes without duplicate delivery.
+- Document how scheduled guidance pauses for inactive family accounts and resumes without duplicate delivery; use a synthetic account to specify inactive, reactivated, and already-delivered cases, including whether missed guidance is skipped or rescheduled.
 
 - Document the fallback flow for low-confidence voice transcription before parenting guidance is generated; use synthetic input to specify the clarification prompt and verify that an unconfirmed transcript is not saved as confirmed family context.
 
