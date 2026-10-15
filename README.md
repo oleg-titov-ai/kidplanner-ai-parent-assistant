@@ -337,7 +337,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document idempotent handling of out-of-order payment status webhooks so request balances remain consistent.
 
-- Document locale fallback for scheduled guidance when a family profile contains an unsupported language code.
+- Document locale fallback for scheduled guidance when a family profile contains an unsupported language code; use a synthetic unsupported locale to identify the configured fallback, verify delivery language, and confirm the stored preference is not silently rewritten.
 
 - Document conflict resolution when multiple linked caregivers update the same child preferences concurrently; use synthetic simultaneous edits to specify version checks, retry behavior, and the final visible result without retaining family details in diagnostic logs.
 
