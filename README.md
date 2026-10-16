@@ -335,7 +335,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document how scheduled guidance is suppressed while an account export or deletion request is in progress.
 
-- Document idempotent handling of out-of-order payment status webhooks so request balances remain consistent.
+- Document idempotent handling of out-of-order payment status webhooks so request balances remain consistent; replay synthetic duplicate and delayed events to specify accepted state transitions, prevent stale events from reversing newer state, and verify each balance adjustment occurs once.
 
 - Document locale fallback for scheduled guidance when a family profile contains an unsupported language code; use a synthetic unsupported locale to identify the configured fallback, verify delivery language, and confirm the stored preference is not silently rewritten.
 
