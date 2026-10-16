@@ -331,7 +331,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document account-deletion propagation across conversation history, support caches, and scheduled-message queues.
 
-- Document recovery of linked parent preferences after a restart interrupts an in-progress profile update.
+- Document recovery of linked parent preferences after a restart interrupts an in-progress profile update; use a synthetic interrupted save to specify all-or-nothing preference recovery, preserve the last confirmed values, and verify linked caregivers never see a partially applied update.
 
 - Document how scheduled guidance is suppressed while an account export or deletion request is in progress; use synthetic pending, completed, and failed requests to define pause and resume decisions separately for export and deletion, without replaying missed guidance automatically.
 
