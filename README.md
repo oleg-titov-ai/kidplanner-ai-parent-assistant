@@ -333,7 +333,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document recovery of linked parent preferences after a restart interrupts an in-progress profile update.
 
-- Document how scheduled guidance is suppressed while an account export or deletion request is in progress.
+- Document how scheduled guidance is suppressed while an account export or deletion request is in progress; use synthetic pending, completed, and failed requests to define pause and resume decisions separately for export and deletion, without replaying missed guidance automatically.
 
 - Document idempotent handling of out-of-order payment status webhooks so request balances remain consistent; replay synthetic duplicate and delayed events to specify accepted state transitions, prevent stale events from reversing newer state, and verify each balance adjustment occurs once.
 
