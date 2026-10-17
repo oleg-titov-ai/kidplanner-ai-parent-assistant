@@ -323,7 +323,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document how conversation-history retention changes preserve consent settings and avoid exposing archived family data.
 
-- Document the user-visible boundary for age-sensitive parenting guidance and the fallback to general educational information.
+- Document the user-visible boundary for age-sensitive parenting guidance and the fallback to general educational information; use synthetic missing, invalid, and out-of-scope age inputs to specify clarification or a general fallback without inventing an age or presenting educational output as individualized professional advice.
 
 - Document redaction of payment references and receipt metadata from user-facing support diagnostics; use synthetic receipts to define allowed status fields and mask transaction identifiers, payer details, and attachment URLs, checking nested error messages as well as the main diagnostic text.
 
