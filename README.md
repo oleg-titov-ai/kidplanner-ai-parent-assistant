@@ -321,7 +321,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document the safe user prompt used when detected voice-message language differs from the saved conversation language.
 
-- Document how conversation-history retention changes preserve consent settings and avoid exposing archived family data.
+- Document how conversation-history retention changes preserve consent settings and avoid exposing archived family data; use synthetic active and expired history markers to define cleanup eligibility, confirm consent settings remain unchanged, and verify expired context is excluded from later guidance.
 
 - Document the user-visible boundary for age-sensitive parenting guidance and the fallback to general educational information; use synthetic missing, invalid, and out-of-scope age inputs to specify clarification or a general fallback without inventing an age or presenting educational output as individualized professional advice.
 
