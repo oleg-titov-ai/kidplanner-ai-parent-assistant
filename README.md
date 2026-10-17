@@ -327,7 +327,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document redaction of payment references and receipt metadata from user-facing support diagnostics.
 
-- Document quota-reset boundaries when a family changes its saved timezone near the daily reset time.
+- Document quota-reset boundaries when a family changes its saved timezone near the daily reset time; use synthetic accounts moving east and west across midnight to define the authoritative reset instant and verify a timezone edit cannot grant a second daily allowance.
 
 - Document account-deletion propagation across conversation history, support caches, and scheduled-message queues; use a synthetic account marker to define per-store completion checks, cancellation of queued guidance, and retry behavior for partial failures without reporting deletion complete prematurely.
 
