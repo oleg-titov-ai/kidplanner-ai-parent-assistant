@@ -315,7 +315,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document validation for payment amount and currency mismatches before purchased credits are applied; use synthetic matching, wrong-amount, and wrong-currency events to define comparison with the stored purchase, quarantine mismatches, and verify rejected or replayed events never add credits.
 
-- Document how a daily-tip preference update is resolved when it races with scheduler selection for the same user.
+- Document how a daily-tip preference update is resolved when it races with scheduler selection for the same user; use a synthetic job selected before notifications are disabled to specify final preference revalidation and cancellation before send without replaying the cancelled tip on restart.
 
 - Document how notification and consent preferences remain associated with an account after the Telegram username changes.
 
