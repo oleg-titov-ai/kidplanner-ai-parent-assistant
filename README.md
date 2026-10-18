@@ -309,7 +309,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document safe defaults and user-visible recovery when stored scheduling or preference values are malformed.
 
-- Document how language changes affect queued daily tips without altering quotas or conversation history.
+- Document how language changes affect queued daily tips without altering quotas or conversation history; use a synthetic queued tip and language update to define send-time language selection, preserve the delivery key, and verify that preference changes neither consume extra quota nor rewrite saved history.
 
 - Document how invalid or obsolete timezone identifiers are detected and corrected without duplicating scheduled tips; use synthetic invalid and deprecated identifiers to define validation, user confirmation of a replacement, and preservation of the already-delivered date marker during rescheduling.
 
