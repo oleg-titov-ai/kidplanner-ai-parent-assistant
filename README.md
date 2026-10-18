@@ -311,7 +311,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document how language changes affect queued daily tips without altering quotas or conversation history.
 
-- Document how invalid or obsolete timezone identifiers are detected and corrected without duplicating scheduled tips.
+- Document how invalid or obsolete timezone identifiers are detected and corrected without duplicating scheduled tips; use synthetic invalid and deprecated identifiers to define validation, user confirmation of a replacement, and preservation of the already-delivered date marker during rescheduling.
 
 - Document validation for payment amount and currency mismatches before purchased credits are applied; use synthetic matching, wrong-amount, and wrong-currency events to define comparison with the stored purchase, quarantine mismatches, and verify rejected or replayed events never add credits.
 
