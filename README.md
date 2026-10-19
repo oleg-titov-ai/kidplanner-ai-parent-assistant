@@ -189,6 +189,10 @@ AI Telegram assistant for parents with PostgreSQL memory, n8n automation, reques
 **Russian:**  
 AI Telegram-помощник для родителей с памятью в PostgreSQL, автоматизацией n8n, лимитами запросов и оплатой.
 
+## Maintenance checklist
+
+The items below describe checks to perform, not completed test results. Record the synthetic fixture, observed result, and tested commit when verifying an item; do not use real family or payment data as public evidence.
+
 Maintenance note: verify a successful payment grants the entitlement exactly once and to the matching user account.
 
 Maintenance note: verify failed or refunded payments never increase the user's request allowance.
