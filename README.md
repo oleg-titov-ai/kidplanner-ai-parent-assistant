@@ -293,7 +293,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document how concurrent messages from the same user are ordered to keep conversation context predictable.
 
-- Document how the assistant handles unsupported voice-message formats without consuming a request credit.
+- Document how the assistant handles unsupported voice-message formats without consuming a request credit; use synthetic unsupported and unreadable attachments to specify a text-resubmission prompt, unchanged quota, and no downstream AI request or retained raw audio in diagnostic logs.
 
 - Document how an expired payment session is presented without losing the user's original purchase choice.
 
