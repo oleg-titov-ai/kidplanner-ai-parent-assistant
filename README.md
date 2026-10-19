@@ -307,7 +307,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document how payment records required for reconciliation remain separated from deleted conversation and profile data.
 
-- Document safe defaults and user-visible recovery when stored scheduling or preference values are malformed.
+- Document safe defaults and user-visible recovery when stored scheduling or preference values are malformed; use synthetic invalid schedule and opt-in values to define a paused daily-tip outcome and a correction prompt, ensuring an unreadable preference is never interpreted as consent and recovery does not change payment or quota state.
 
 - Document how language changes affect queued daily tips without altering quotas or conversation history; use a synthetic queued tip and language update to define send-time language selection, preserve the delivery key, and verify that preference changes neither consume extra quota nor rewrite saved history.
 
