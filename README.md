@@ -291,7 +291,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document how message history is trimmed when the context limit is reached while preserving the latest user intent.
 
-- Document how concurrent messages from the same user are ordered to keep conversation context predictable.
+- Document how concurrent messages from the same user are ordered to keep conversation context predictable; use two synthetic messages whose responses finish in reverse order to specify the ordering rule and verify each reply stays paired with its original request without overwriting newer context.
 
 - Document how the assistant handles unsupported voice-message formats without consuming a request credit; use synthetic unsupported and unreadable attachments to specify a text-resubmission prompt, unchanged quota, and no downstream AI request or retained raw audio in diagnostic logs.
 
