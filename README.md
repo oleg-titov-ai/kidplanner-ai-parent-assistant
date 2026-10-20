@@ -297,7 +297,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document how the assistant handles unsupported voice-message formats without consuming a request credit; use synthetic unsupported and unreadable attachments to specify a text-resubmission prompt, unchanged quota, and no downstream AI request or retained raw audio in diagnostic logs.
 
-- Document how an expired payment session is presented without losing the user's original purchase choice.
+- Document expired payment-session recovery using a synthetic purchase: show expiry, preserve the selected option for review, and revalidate the current amount and currency before explicit confirmation of a new session; do not retry charges or grant credits merely because checkout is reopened.
 
 - Document how refunded or reversed payments adjust purchased request credits without producing a negative balance.
 
