@@ -287,7 +287,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document the fallback shown to users when payment confirmation is delayed but the original payment request is still pending.
 
-- Document how quota counters are reconciled if an assistant request finishes after the client has disconnected.
+- Document how quota counters are reconciled if an assistant request finishes after the client has disconnected; use synthetic accepted requests that complete before and after disconnect plus a retry with the same idempotency key, and specify one final quota outcome without retaining family content in diagnostics.
 
 - Document the user-visible status shown when a scheduled tip is generated successfully but delivery is deferred.
 
