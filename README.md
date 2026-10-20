@@ -211,7 +211,7 @@ Maintenance note: keep demo payment events clearly separated from production web
 
 Maintenance note: review demo retention examples after schema changes so cleanup rules still match the documented data model.
 
-Maintenance note: reset demo user limits and synthetic message history before recording new portfolio screenshots.
+Maintenance note: reset demo user limits and synthetic message history before recording portfolio screenshots, then verify the request allowance matches the documented baseline before a new walkthrough.
 
 Maintenance note: verify the daily-tip workflow excludes inactive demo users before sending scheduled portfolio examples.
 
@@ -228,8 +228,6 @@ Maintenance note: verify demo cleanup preserves request-limit and payment-state 
 Maintenance note: confirm demo prompts and screenshots avoid implying consent to store real family data beyond the documented synthetic test scope.
 
 Maintenance note: clear synthetic payment references before each new demo run so portfolio examples cannot inherit stale transaction state.
-
-Maintenance note: verify a freshly reset demo user starts from the documented request-limit baseline before recording a new walkthrough.
 
 Maintenance note: confirm daily-tip and AI-response demo flows use only the same synthetic user state and never reference production identities.
 
