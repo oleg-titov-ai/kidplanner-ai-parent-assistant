@@ -283,7 +283,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document how repeated payment callbacks are handled so purchased request credits are applied exactly once; replay synthetic identical, delayed, and conflicting callbacks under one provider transaction identifier, specifying the final credit balance, idempotency record, and redacted alert for inconsistent amounts without real payment data.
 
-- Document how daily advice scheduling behaves when a user changes timezone close to the scheduled send time.
+- Document how daily advice scheduling behaves when a user changes timezone close to the scheduled send time; use synthetic changes just before and after queueing to define the effective cutoff, local-date ownership, and deliver, reschedule, or skip decision without producing duplicate guidance.
 
 - Document the fallback shown to users when payment confirmation is delayed but the original payment request is still pending.
 
