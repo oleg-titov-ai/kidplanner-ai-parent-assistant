@@ -279,7 +279,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document the scope of context clearing: distinguish active AI context from persisted conversation history, specify which is cleared, and verify quotas remain unchanged with a synthetic account. Do not present context clearing as account deletion.
 
-- Document the user-facing behavior when voice transcription succeeds but the downstream assistant response times out.
+- Document the user-facing behavior when voice transcription succeeds but the downstream assistant response times out; use synthetic confirmed transcription and ambiguous timeout cases to specify the retry prompt, transcript retention boundary, and single quota outcome without displaying or logging family content.
 
 - Document how repeated payment callbacks are handled so purchased request credits are applied exactly once.
 
