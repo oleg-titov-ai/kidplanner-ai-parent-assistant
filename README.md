@@ -299,7 +299,7 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 
 - Document expired payment-session recovery using a synthetic purchase: show expiry, preserve the selected option for review, and revalidate the current amount and currency before explicit confirmation of a new session; do not retry charges or grant credits merely because checkout is reopened.
 
-- Document how refunded or reversed payments adjust purchased request credits without producing a negative balance.
+- Document how refunded or reversed payments adjust purchased request credits without producing a negative balance; use synthetic full, partial, duplicate, and late reversals to define idempotent credit adjustment, a zero-balance floor, and a redacted reconciliation alert when already-used credits exceed the reversible amount.
 
 - Document how delivery resumes safely after a user unblocks the bot without sending missed daily tips in a burst.
 
