@@ -370,3 +370,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document user-visible recovery when the AI provider is unavailable after a request is accepted; use synthetic timeout, rate-limit, and malformed-response cases to define bounded retry, quota treatment, and a neutral fallback message without saving partial guidance as confirmed conversation context.
 
 - Document handling of instruction-like text embedded in user-provided family context; use synthetic prompts that request hidden configuration or policy overrides to specify that quoted content remains untrusted data, sensitive instructions are never exposed, and guidance stays within the documented parenting scope.
+
+- Document point-in-time consistency when a caregiver requests an account export while family profiles are being edited; use synthetic concurrent create, update, and delete operations to define one export snapshot boundary, avoid mixed-version records, and keep the archive access-controlled and time-limited.
