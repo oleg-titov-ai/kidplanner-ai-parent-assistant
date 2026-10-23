@@ -372,3 +372,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document handling of instruction-like text embedded in user-provided family context; use synthetic prompts that request hidden configuration or policy overrides to specify that quoted content remains untrusted data, sensitive instructions are never exposed, and guidance stays within the documented parenting scope.
 
 - Document point-in-time consistency when a caregiver requests an account export while family profiles are being edited; use synthetic concurrent create, update, and delete operations to define one export snapshot boundary, avoid mixed-version records, and keep the archive access-controlled and time-limited.
+
+- Document authorization revalidation when a caregiver role is revoked while an AI response is being generated; use synthetic in-flight completion, timeout, and retry cases to suppress delivery after revocation, avoid saving unauthorized output to shared history, and provide a neutral status to the requester.
