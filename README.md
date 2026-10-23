@@ -374,3 +374,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document point-in-time consistency when a caregiver requests an account export while family profiles are being edited; use synthetic concurrent create, update, and delete operations to define one export snapshot boundary, avoid mixed-version records, and keep the archive access-controlled and time-limited.
 
 - Document authorization revalidation when a caregiver role is revoked while an AI response is being generated; use synthetic in-flight completion, timeout, and retry cases to suppress delivery after revocation, avoid saving unauthorized output to shared history, and provide a neutral status to the requester.
+
+- Document conflict handling when two authorized caregivers edit the same routine concurrently; use synthetic stale, matching, and sequential versions to preserve the last confirmed schedule, show a reviewable conflict instead of overwriting silently, and avoid sending reminders from an unconfirmed merge.
