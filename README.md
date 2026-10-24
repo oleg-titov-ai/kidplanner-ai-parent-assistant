@@ -376,3 +376,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document authorization revalidation when a caregiver role is revoked while an AI response is being generated; use synthetic in-flight completion, timeout, and retry cases to suppress delivery after revocation, avoid saving unauthorized output to shared history, and provide a neutral status to the requester.
 
 - Document conflict handling when two authorized caregivers edit the same routine concurrently; use synthetic stale, matching, and sequential versions to preserve the last confirmed schedule, show a reviewable conflict instead of overwriting silently, and avoid sending reminders from an unconfirmed merge.
+
+- Document recurrence behavior for routines anchored on February 29; use synthetic leap-year, non-leap-year, timezone-change, and caregiver-edit cases to define the fallback date explicitly, preserve one confirmed schedule, and avoid duplicate reminders around month boundaries.
