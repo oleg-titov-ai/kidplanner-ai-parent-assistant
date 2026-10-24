@@ -380,3 +380,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document recurrence behavior for routines anchored on February 29; use synthetic leap-year, non-leap-year, timezone-change, and caregiver-edit cases to define the fallback date explicitly, preserve one confirmed schedule, and avoid duplicate reminders around month boundaries.
 
 - Document how timezone-database rule updates affect already scheduled family reminders; use synthetic unchanged, shifted, removed, and newly introduced offsets to recompute future occurrences from the stored local intent, preserve delivered history, and avoid replaying or silently skipping a reminder.
+
+- Document reminder behavior when device notification permission or a push token is revoked; use synthetic authorized, denied, expired-token, and restored states to record a non-sensitive delivery status, avoid retry storms, preserve the routine, and resume only future reminders after reauthorization.
