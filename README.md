@@ -382,3 +382,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document how timezone-database rule updates affect already scheduled family reminders; use synthetic unchanged, shifted, removed, and newly introduced offsets to recompute future occurrences from the stored local intent, preserve delivered history, and avoid replaying or silently skipping a reminder.
 
 - Document reminder behavior when device notification permission or a push token is revoked; use synthetic authorized, denied, expired-token, and restored states to record a non-sensitive delivery status, avoid retry storms, preserve the routine, and resume only future reminders after reauthorization.
+
+- Document behavior when a caregiver device clock differs materially from server time; use synthetic fast, slow, corrected, and unavailable client timestamps to keep reminder scheduling server-authoritative, label user-entered local times clearly, and avoid duplicate or retroactive actions after the clock is fixed.
