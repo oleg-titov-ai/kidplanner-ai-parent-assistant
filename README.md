@@ -388,3 +388,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document deduplication when the same push token is registered to multiple caregiver devices or accounts; use synthetic unique, repeated-same-owner, conflicting-owner, rotated, and expired tokens to prevent cross-household delivery, preserve current device consent, and require re-registration on ownership conflict.
 
 - Document reconciliation of offline caregiver changes after household access is revoked; use synthetic queued edits created before revocation and synchronized afterward to revalidate authorization per mutation, reject stale writes without exposing current family data, preserve the last confirmed routine, and avoid scheduling reminders from rejected changes.
+
+- Document privacy-safe local-cache cleanup when a caregiver signs out or removes a device; use synthetic shared-device, offline, interrupted-cleanup, and subsequent-user cases to clear family profiles, generated guidance, and notification metadata while preserving only non-sensitive app settings and preventing stale reminders.
