@@ -390,3 +390,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document reconciliation of offline caregiver changes after household access is revoked; use synthetic queued edits created before revocation and synchronized afterward to revalidate authorization per mutation, reject stale writes without exposing current family data, preserve the last confirmed routine, and avoid scheduling reminders from rejected changes.
 
 - Document privacy-safe local-cache cleanup when a caregiver signs out or removes a device; use synthetic shared-device, offline, interrupted-cleanup, and subsequent-user cases to clear family profiles, generated guidance, and notification metadata while preserving only non-sensitive app settings and preventing stale reminders.
+
+- Document reauthorization after an operating-system or cloud backup restores cached app data onto a device; use synthetic same-caregiver, signed-out, revoked-household, and different-user restores to require fresh authorization before showing family content or scheduling notifications, and clear stale local records on mismatch.
