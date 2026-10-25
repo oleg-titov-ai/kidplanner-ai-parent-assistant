@@ -392,3 +392,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document privacy-safe local-cache cleanup when a caregiver signs out or removes a device; use synthetic shared-device, offline, interrupted-cleanup, and subsequent-user cases to clear family profiles, generated guidance, and notification metadata while preserving only non-sensitive app settings and preventing stale reminders.
 
 - Document reauthorization after an operating-system or cloud backup restores cached app data onto a device; use synthetic same-caregiver, signed-out, revoked-household, and different-user restores to require fresh authorization before showing family content or scheduling notifications, and clear stale local records on mismatch.
+
+- Document authorization checks when a caregiver opens a deep link from an old reminder or guidance notification; use synthetic current-access, revoked-access, switched-household, expired-link, and replayed-link cases to resolve only after fresh authorization, avoid revealing family context in previews, and leave schedules unchanged on rejection.
