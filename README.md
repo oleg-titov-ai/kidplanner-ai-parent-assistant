@@ -394,3 +394,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document reauthorization after an operating-system or cloud backup restores cached app data onto a device; use synthetic same-caregiver, signed-out, revoked-household, and different-user restores to require fresh authorization before showing family content or scheduling notifications, and clear stale local records on mismatch.
 
 - Document authorization checks when a caregiver opens a deep link from an old reminder or guidance notification; use synthetic current-access, revoked-access, switched-household, expired-link, and replayed-link cases to resolve only after fresh authorization, avoid revealing family context in previews, and leave schedules unchanged on rejection.
+
+- Document transfer of family ownership between authorized caregivers; use synthetic accepted, expired, revoked, concurrent, and incomplete transfer cases to require explicit confirmation from both roles, preserve child profiles and schedules atomically, prevent dual ownership, and keep family details out of operational logs.
