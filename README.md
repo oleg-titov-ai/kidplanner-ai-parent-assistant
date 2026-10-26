@@ -396,3 +396,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document authorization checks when a caregiver opens a deep link from an old reminder or guidance notification; use synthetic current-access, revoked-access, switched-household, expired-link, and replayed-link cases to resolve only after fresh authorization, avoid revealing family context in previews, and leave schedules unchanged on rejection.
 
 - Document transfer of family ownership between authorized caregivers; use synthetic accepted, expired, revoked, concurrent, and incomplete transfer cases to require explicit confirmation from both roles, preserve child profiles and schedules atomically, prevent dual ownership, and keep family details out of operational logs.
+
+- Document quota and delivery behavior when a paid entitlement expires while an AI guidance request is in progress; use synthetic expiry before acceptance, during generation, after persistence, and during retry to define one quota decision, prevent duplicate charging, and suppress output only according to the documented authorization boundary.
