@@ -400,3 +400,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document quota and delivery behavior when a paid entitlement expires while an AI guidance request is in progress; use synthetic expiry before acceptance, during generation, after persistence, and during retry to define one quota decision, prevent duplicate charging, and suppress output only according to the documented authorization boundary.
 
 - Document deletion tombstones for child profiles and routines synchronized from offline devices; use synthetic delete-then-edit, delayed-create, duplicate-delete, expired-device, and authorized-restore cases to prevent stale clients from resurrecting removed family data or schedules without an explicit confirmed recovery flow.
+
+- Document one-time household invitation acceptance for additional caregivers; use synthetic valid, expired, revoked, replayed, wrong-account, and concurrent-acceptance cases to authorize exactly one membership, reveal no child or routine data before acceptance, and leave existing schedules unchanged on rejection.
