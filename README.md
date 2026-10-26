@@ -402,3 +402,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document deletion tombstones for child profiles and routines synchronized from offline devices; use synthetic delete-then-edit, delayed-create, duplicate-delete, expired-device, and authorized-restore cases to prevent stale clients from resurrecting removed family data or schedules without an explicit confirmed recovery flow.
 
 - Document one-time household invitation acceptance for additional caregivers; use synthetic valid, expired, revoked, replayed, wrong-account, and concurrent-acceptance cases to authorize exactly one membership, reveal no child or routine data before acceptance, and leave existing schedules unchanged on rejection.
+
+- Document reminder and data-access reconciliation when a caregiver role is downgraded or household membership is revoked; use synthetic queued, delivered, offline, concurrent-session, and restored-access cases to cancel unauthorized future reminders, invalidate cached access, preserve family schedules, and reveal no child details after revocation.
