@@ -398,3 +398,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document transfer of family ownership between authorized caregivers; use synthetic accepted, expired, revoked, concurrent, and incomplete transfer cases to require explicit confirmation from both roles, preserve child profiles and schedules atomically, prevent dual ownership, and keep family details out of operational logs.
 
 - Document quota and delivery behavior when a paid entitlement expires while an AI guidance request is in progress; use synthetic expiry before acceptance, during generation, after persistence, and during retry to define one quota decision, prevent duplicate charging, and suppress output only according to the documented authorization boundary.
+
+- Document deletion tombstones for child profiles and routines synchronized from offline devices; use synthetic delete-then-edit, delayed-create, duplicate-delete, expired-device, and authorized-restore cases to prevent stale clients from resurrecting removed family data or schedules without an explicit confirmed recovery flow.
