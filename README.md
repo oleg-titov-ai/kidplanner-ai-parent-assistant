@@ -410,3 +410,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document treatment of profile names, routine notes, and imported text as untrusted content during AI guidance generation; use synthetic instruction-like, markup-heavy, multilingual, oversized, and ordinary values to preserve system and safety boundaries, quote context clearly, and keep prompts and family data out of operational logs.
 
 - Document consent renewal when the privacy notice or family-data policy version changes; use synthetic current, superseded, partially accepted, offline, and revoked-account cases to pause new AI processing until the authorized caregiver confirms the new version, preserve existing schedules safely, and avoid exposing family content on the consent screen.
+
+- Document cancellation of an in-progress AI guidance request; use synthetic cancel-before-start, during-generation, after-persistence, repeated-cancel, and provider-timeout cases to stop delivery where possible, apply one documented quota decision, avoid partial guidance, and keep family context out of cancellation logs.
