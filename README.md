@@ -412,3 +412,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document consent renewal when the privacy notice or family-data policy version changes; use synthetic current, superseded, partially accepted, offline, and revoked-account cases to pause new AI processing until the authorized caregiver confirms the new version, preserve existing schedules safely, and avoid exposing family content on the consent screen.
 
 - Document cancellation of an in-progress AI guidance request; use synthetic cancel-before-start, during-generation, after-persistence, repeated-cancel, and provider-timeout cases to stop delivery where possible, apply one documented quota decision, avoid partial guidance, and keep family context out of cancellation logs.
+
+- Document migration of family routines when the household timezone changes; use synthetic eastward, westward, daylight-saving, pending-reminder, and offline-device cases to require explicit caregiver confirmation, preserve intended local times, prevent duplicate or skipped reminders, and retain the prior schedule until migration commits atomically.
