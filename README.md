@@ -406,3 +406,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document reminder and data-access reconciliation when a caregiver role is downgraded or household membership is revoked; use synthetic queued, delivered, offline, concurrent-session, and restored-access cases to cancel unauthorized future reminders, invalidate cached access, preserve family schedules, and reveal no child details after revocation.
 
 - Document creation of a caregiver-requested family data export from one consistent authorization snapshot; use synthetic active, revoked-during-export, concurrent-edit, partial-build, and expired-download cases to include only permitted records, prevent mixed-version schedules, remove temporary packages promptly, and reveal no data after access is revoked.
+
+- Document treatment of profile names, routine notes, and imported text as untrusted content during AI guidance generation; use synthetic instruction-like, markup-heavy, multilingual, oversized, and ordinary values to preserve system and safety boundaries, quote context clearly, and keep prompts and family data out of operational logs.
