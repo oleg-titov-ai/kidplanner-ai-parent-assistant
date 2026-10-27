@@ -408,3 +408,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document creation of a caregiver-requested family data export from one consistent authorization snapshot; use synthetic active, revoked-during-export, concurrent-edit, partial-build, and expired-download cases to include only permitted records, prevent mixed-version schedules, remove temporary packages promptly, and reveal no data after access is revoked.
 
 - Document treatment of profile names, routine notes, and imported text as untrusted content during AI guidance generation; use synthetic instruction-like, markup-heavy, multilingual, oversized, and ordinary values to preserve system and safety boundaries, quote context clearly, and keep prompts and family data out of operational logs.
+
+- Document consent renewal when the privacy notice or family-data policy version changes; use synthetic current, superseded, partially accepted, offline, and revoked-account cases to pause new AI processing until the authorized caregiver confirms the new version, preserve existing schedules safely, and avoid exposing family content on the consent screen.
