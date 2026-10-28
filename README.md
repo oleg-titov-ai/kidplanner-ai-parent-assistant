@@ -420,3 +420,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document single-occurrence exceptions for recurring family routines; use synthetic skip, move-one, edit-series, overlapping-change, offline-device, and timezone-boundary cases to identify the intended occurrence, preserve unaffected instances, prevent duplicate reminders, and commit the exception atomically across authorized caregivers.
 
 - Document lock-screen notification privacy for family reminders on shared devices; use synthetic generic, child-name, routine-detail, AI-guidance, locked, and unlocked preview cases to default to the least revealing text, honor caregiver-controlled preview settings, and keep sensitive family context out of notification diagnostics.
+
+- Document calendar-locale changes that alter week start, date formatting, or 12/24-hour display without changing stored routine instants; use synthetic Sunday-first, Monday-first, locale switch, offline-device, and concurrent-edit cases to preserve schedule meaning, render consistently per caregiver, and avoid duplicate reminders.
