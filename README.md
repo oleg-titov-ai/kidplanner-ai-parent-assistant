@@ -416,3 +416,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document migration of family routines when the household timezone changes; use synthetic eastward, westward, daylight-saving, pending-reminder, and offline-device cases to require explicit caregiver confirmation, preserve intended local times, prevent duplicate or skipped reminders, and retain the prior schedule until migration commits atomically.
 
 - Document notification-token rotation after reinstall, account restore, or operating-system refresh; use synthetic current, replaced, duplicated, revoked, and delayed-registration tokens to bind one authorized device record, retire stale destinations before scheduling, prevent duplicate reminders, and keep token values out of logs and fixtures.
+
+- Document single-occurrence exceptions for recurring family routines; use synthetic skip, move-one, edit-series, overlapping-change, offline-device, and timezone-boundary cases to identify the intended occurrence, preserve unaffected instances, prevent duplicate reminders, and commit the exception atomically across authorized caregivers.
