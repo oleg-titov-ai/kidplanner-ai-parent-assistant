@@ -422,3 +422,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document lock-screen notification privacy for family reminders on shared devices; use synthetic generic, child-name, routine-detail, AI-guidance, locked, and unlocked preview cases to default to the least revealing text, honor caregiver-controlled preview settings, and keep sensitive family context out of notification diagnostics.
 
 - Document calendar-locale changes that alter week start, date formatting, or 12/24-hour display without changing stored routine instants; use synthetic Sunday-first, Monday-first, locale switch, offline-device, and concurrent-edit cases to preserve schedule meaning, render consistently per caregiver, and avoid duplicate reminders.
+
+- Document detection and review of potentially duplicate child profiles created by concurrent or offline caregivers; use synthetic exact-name, similar-name, distinct-child, delayed-sync, merged-household, and revoked-access cases to avoid automatic merging, preserve routine ownership, require authorized confirmation, and prevent duplicate reminders.
