@@ -414,3 +414,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document cancellation of an in-progress AI guidance request; use synthetic cancel-before-start, during-generation, after-persistence, repeated-cancel, and provider-timeout cases to stop delivery where possible, apply one documented quota decision, avoid partial guidance, and keep family context out of cancellation logs.
 
 - Document migration of family routines when the household timezone changes; use synthetic eastward, westward, daylight-saving, pending-reminder, and offline-device cases to require explicit caregiver confirmation, preserve intended local times, prevent duplicate or skipped reminders, and retain the prior schedule until migration commits atomically.
+
+- Document notification-token rotation after reinstall, account restore, or operating-system refresh; use synthetic current, replaced, duplicated, revoked, and delayed-registration tokens to bind one authorized device record, retire stale destinations before scheduling, prevent duplicate reminders, and keep token values out of logs and fixtures.
