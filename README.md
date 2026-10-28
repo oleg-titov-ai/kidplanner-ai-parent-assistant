@@ -418,3 +418,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document notification-token rotation after reinstall, account restore, or operating-system refresh; use synthetic current, replaced, duplicated, revoked, and delayed-registration tokens to bind one authorized device record, retire stale destinations before scheduling, prevent duplicate reminders, and keep token values out of logs and fixtures.
 
 - Document single-occurrence exceptions for recurring family routines; use synthetic skip, move-one, edit-series, overlapping-change, offline-device, and timezone-boundary cases to identify the intended occurrence, preserve unaffected instances, prevent duplicate reminders, and commit the exception atomically across authorized caregivers.
+
+- Document lock-screen notification privacy for family reminders on shared devices; use synthetic generic, child-name, routine-detail, AI-guidance, locked, and unlocked preview cases to default to the least revealing text, honor caregiver-controlled preview settings, and keep sensitive family context out of notification diagnostics.
