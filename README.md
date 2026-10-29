@@ -424,3 +424,5 @@ Maintenance note: document timeout handling for AI responses so retries preserve
 - Document calendar-locale changes that alter week start, date formatting, or 12/24-hour display without changing stored routine instants; use synthetic Sunday-first, Monday-first, locale switch, offline-device, and concurrent-edit cases to preserve schedule meaning, render consistently per caregiver, and avoid duplicate reminders.
 
 - Document detection and review of potentially duplicate child profiles created by concurrent or offline caregivers; use synthetic exact-name, similar-name, distinct-child, delayed-sync, merged-household, and revoked-access cases to avoid automatic merging, preserve routine ownership, require authorized confirmation, and prevent duplicate reminders.
+
+- Document transfer of the primary-caregiver role within a family household; use synthetic accepted, declined, expired, concurrent-edit, pending-payment, and last-authorized-caregiver cases to require verified consent from both eligible adults, preserve child routines and billing ownership, revoke superseded privileges atomically, and emit no family details in audit logs.
